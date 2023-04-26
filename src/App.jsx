@@ -1,19 +1,21 @@
 import { Link, Route, Routes } from 'react-router-dom'
 
 import './App.css'
-import Home from './views/Home'
-import Contact from './views/Contact'
-import Styleguia from './views/Styleguia'
+import './scss/global.scss'
+import Home from './views/home/Home'
+import Contact from './views/contact/Contact'
+import Styleguia from './styleguia/Styleguia'
+
 
 function App() {
 
   return (
     <>
-    <header>
-      <h1>Proyecto Gamma</h1>
+    <header className="section">
+      <h1 className="title">Proyecto Gamma</h1>
       <Link to="/contact">Contacto</Link>
       <Link to="/">Home</Link>
-      <Link to="/styleguia">Stayleguia</Link>
+      <Link to="/styleguia">Styleguia</Link>
     </header>
     <main>
       <Routes>
@@ -23,7 +25,7 @@ function App() {
       </Routes>
     </main>
     </>
-  )
+  );
 }
 
 export default App
