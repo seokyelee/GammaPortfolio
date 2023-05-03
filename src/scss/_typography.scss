@@ -1,12 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
 
 .title{
-    font-family:'Bruno Ace', cursive;
+    font-family: $primary-ff;
     font-size: 3rem;
     color: beige;
 }
 
+ p{
+    font-family:'Work Sans';
+    font-size: 0.8rem;
+    color:var(--color_p);
+}
+
 h2{
+    font-family:'Work Sans';
     color:var(--color_p);
 }
     

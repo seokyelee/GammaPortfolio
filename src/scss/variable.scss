@@ -7,6 +7,20 @@
     --color_btn:#1FADAD;
  }
 
+$primary-ff: 'Work-Sans';
+$title-ff: 'Bruno Ace';
+
+$font-medium: 1rem;
+
+@mixin font-size ($font-size :$font-medium){
+    font-size: $font-size;
+    @include mq(medium) {
+        font-size: $font-size *1.2;
+    }
+}
+
+
+
  .disable{
     background-color: var(--color_disable);
  }
