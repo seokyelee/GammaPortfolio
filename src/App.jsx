@@ -13,7 +13,7 @@ function App() {
   return (
     <>
     <header className="section">
-      <h1 className="title">Proyecto Gamma</h1>
+      <h1 className="title">Proyect Gamma</h1>
       <Link to="/contact">Contacto</Link>
       <Link to="/">Home</Link>
       <Link to="/styleguia">Styleguia</Link>
