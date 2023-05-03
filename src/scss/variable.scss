@@ -1,0 +1,29 @@
+ :root{
+    --color_disable:#97A1AF;
+    --color_error:#F20D0D;
+    --color_bg:#454F54;
+    --color_border:#EDE7DE;
+    --color_p:#EDE7DE;
+    --color_btn:#1FADAD;
+ }
+
+ .disable{
+    background-color: var(--color_disable);
+ }
+ .error{
+    background-color: var(--color_error);
+ }
+ .bg{
+    background-color: var(--color_bg);
+ }
+ .border{
+    background-color: var(--color_border);
+    color:var(--color_bg);
+ }
+ .p{
+    background-color: var(--color_p);
+    color:var(--color_bg);
+ }
+ .btn{
+    background-color: var(--color_btn);
+ }
