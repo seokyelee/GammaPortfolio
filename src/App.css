@@ -3,6 +3,29 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: lightpink;
+  background-color: rgb(0, 218, 207);
+  border: 0.5px solid beige;
+}
+.section {
+  color: beige;
+  border: 0.5px solid beige;
 }
 
+.nav-box {
+  width: 100vw;
+  max-width: 1440px;
+  height: 120px;
+  margin: 0 auto;
+  border: 0.5px solid beige;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  border: 0.5px solid beige;
+}
