@@ -1,11 +1,11 @@
- :root{
-    --color_disable:#97A1AF;
-    --color_error:#F20D0D;
-    --color_bg:#454F54;
-    --color_border:#EDE7DE;
-    --color_p:#EDE7DE;
-    --color_btn:#1FADAD;
- }
+:root{
+   --color_disable:#97A1AF;
+   --color_error:#F20D0D;
+   --color_bg:#454F54;
+   --color_border:#EDE7DE;
+   --color_p:#EDE7DE;
+   --color_btn:#1FADAD;
+}
 
 $color-vars:(
    "color-disable" :#97A1AF,
@@ -13,13 +13,9 @@ $color-vars:(
    "color-bg" : #454F54,
    "color-border" : #EDE7DE,
    "color-p" : #EDE7DE,
-   "color-btn" : #1FADAD,
- );
+   "color-btn" : #1FADAD
+);
 
-
- @function fs($color) {
-   @return map-get($color-vars, $font-size) * 1rem;
-}
 
 
 $primary-ff: 'Work-Sans';
@@ -41,14 +37,8 @@ $font-x-big: 5rem;
          "x-big" :4.25//68px
       );
 
-      @function fs($font-size) {
-         @return map-get($size-vars, $font-size) * 1rem;
-      }
       
-      h1 {
-         font-size: fs(x-big);
-      }
- 
+      
 //hasta aquí (mapa)
 
 @mixin font-size ($font-size :$font-regular){

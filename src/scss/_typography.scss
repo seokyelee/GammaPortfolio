@@ -2,18 +2,28 @@
 
 .title{
     font-family: $title-ff;
-    font-size: $font-big;
-    color: beige;
+    font-size: fs(x-big);
+    color: fs(color-p); 
 }
 
- p{
+p {
     font-family:'Work Sans';
-    font-size: $font-small;
-    color:var(--color_p);
+    font-size: fs(small);
+    color:fs(color-p); 
 }
 
-h2{
-    font-family:'Work Sans';
-    color:var(--color_p);
+h1 {
+    font-family: $title-ff;
+    font-size: fs(big);
 }
-    
+
+h2, h3{
+    font-family:'Work Sans';
+    color:fs(color-p); 
+    font-size: fs(regular);
+}
+
+h3 {
+    font-family:'Work Sans';
+    color:fs(color-p); 
+}
