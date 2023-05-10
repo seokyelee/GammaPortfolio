@@ -1,27 +1,29 @@
 
 .btn__pri{
-    background-color: fs(color-btn);
-    color:fs(color-p);
+    background-color: color(color-btn);
+    color: color(color-p);
     padding: 8px 12px;
     margin: 12px;
-    border: 0.5px solid fs(color-p);
-}
-
-.btn__pri__disable{
-    background-color: rgb(93, 94, 94);
-    color:fs(color-p);
-    margin: 12px;
-    padding: 8px 12px;
-    border: 0.5px solid fs(color-p);
+    border: 0.5px solid color(color-p);
 }
 
 .btn__sec{
-    background-color: fs(color-btn);
-    color:fs(color-p);
+    background-color: color(color-btn);
+    color: color(color-p);
     padding: 8px 12px;
     margin: 12px;
-    border: 0.5px solid fs(color-p);
+    border: 0.5px solid color(color-p);
 }
+
+.btn__pri__disable{
+    background-color: color(color-disable);
+    color: color(color-p);
+    margin: 12px;
+    padding: 8px 12px;
+    border: 0.5px solid color(color-p);
+}
+
+
 
 .btn__error{
     background-color: fs(color-error);
