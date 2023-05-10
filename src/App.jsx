@@ -1,7 +1,7 @@
 import { Link, Route, Routes } from 'react-router-dom'
-
-import './App.css'
 import './scss/global.scss'
+import './App.css'
+
 import Home from './views/home/Home'
 import Contact from './views/contact/Contact'
 import Styleguia from './styleguia/Styleguia'

@@ -1,14 +1,14 @@
 
 
 .title{
-    font-family: $primary-ff;
-    font-size: 3rem;
+    font-family: $title-ff;
+    font-size: $font-big;
     color: beige;
 }
 
  p{
     font-family:'Work Sans';
-    font-size: 0.8rem;
+    font-size: $font-small;
     color:var(--color_p);
 }
 
