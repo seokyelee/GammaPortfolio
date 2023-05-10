@@ -7,6 +7,21 @@
     --color_btn:#1FADAD;
  }
 
+$color-vars:(
+   "color-disable" :#97A1AF,
+   "color-error" : #F20D0D,
+   "color-bg" : #454F54,
+   "color-border" : #EDE7DE,
+   "color-p" : #EDE7DE,
+   "color-btn" : #1FADAD,
+ );
+
+
+ @function fs($color) {
+   @return map-get($color-vars, $font-size) * 1rem;
+}
+
+
 $primary-ff: 'Work-Sans';
 $title-ff: 'Bruno Ace';
 
