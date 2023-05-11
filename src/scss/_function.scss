@@ -1,6 +1,6 @@
 @function fs($font-size) {
-    @return map-get($size-vars, $font-size) * 1rem;
- }
+   @return map-get($size-vars, $font-size) * 1rem;
+}
 
 @function color($color) {
    @return map-get($color-vars, $color);

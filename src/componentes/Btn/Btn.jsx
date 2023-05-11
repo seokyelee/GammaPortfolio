@@ -16,6 +16,11 @@ export default function Btn() {
 			<button className="btn__sec" type="button">
 				Click
 			</button>
+
+			<Link className="btn__pri">Click</Link>
+			<Link className="btn__pri__disable">Click</Link>
+			<Link className="btn__cancel">Click</Link>
+			<Link className="btn__sec">Click</Link>
 		</>
 	);
 }

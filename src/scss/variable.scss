@@ -19,11 +19,11 @@ $color-vars: (
 $primary-ff: "Work-Sans";
 $title-ff: "Bruno Ace";
 
-$font-x-small: 0.8rem;
-$font-small: 0.9rem;
-$font-regular: 1.2rem;
-$font-big: 3rem;
-$font-x-big: 5rem;
+//$font-x-small: 0.8rem;
+//$font-small: 0.9rem;
+//$font-regular: 1.2rem;
+//$font-big: 3rem;
+//$font-x-big: 5rem;
 
 //Mapa de tamaño de fuentes => Se utiliza para colores tambien
 
@@ -36,10 +36,11 @@ $size-vars: (
    //20px
    "big": 2.5,
    //40px
-   "x-big": 4.25 //68px,
+   "x-big": 4.25,
+    //68px
 );
 
-//hasta aquí (mapa)
+
 
 @mixin font-size($font-size: $font-regular) {
    font-size: $font-size;
