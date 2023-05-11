@@ -1,11 +1,11 @@
-:root {
-   --color_disable: #97a1af;
-   --color_cancel: #f20d0d;
-   --color_bg: #454f54;
-   --color_border: #ede7de;
-   --color_p: #ede7de;
-   --color_btn: #1fadad;
-}
+//:root {
+//   --color_disable: #97a1af;
+//   --color_cancel: #f20d0d;
+//   --color_bg: #454f54;
+//   --color_border: #ede7de;
+//   --color_p: #ede7de;
+//   --color_btn: #1fadad;
+//}
 
 $color-vars: (
    "color-disable": #97a1af,
@@ -51,27 +51,27 @@ $size-vars: (
 }
 
 .disable {
-   background-color: var(--color_disable);
+   background-color: color(color-disable);
 }
 
 .cancel {
-   background-color: var(--color_error);
+   background-color: color(color-cancel);
 }
 
 .bg {
-   background-color: var(--color_bg);
+   background-color: color(color-bg);
 }
 
 .border {
-   background-color: var(--color_border);
-   color: var(--color_bg);
+   background-color: color(color-p);
+   color: color(color-bg);
 }
 
 .p {
-   background-color: var(--color_p);
-   color: var(--color_bg);
+   background-color: color(color-p);
+   color: color(color_bg);
 }
 
 .btn {
-   background-color: var(--color_btn);
+   background-color: color(color_btn);
 }

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Btn.scss";
 
 export default function Btn() {
