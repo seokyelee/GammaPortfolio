@@ -1,3 +1,5 @@
+@import '../scss/variable';
+@import '../scss/function';
 
 .btn__pri{
     background-color: color(color-btn);
@@ -24,9 +26,9 @@
 }
 
 .btn__error{
-    background-color: fs(color-error);
-    color:fs(color-p);
+    background-color: color(color-cancel);
+    color: color(color-p);
     margin: 12px;
     padding: 8px 12px;
-    border: 0.5px solid fs(color-p);
+    border: 0.5px solid color(color-p);
 }
