@@ -3,13 +3,13 @@
 .title{
     font-family: $title-ff;
     font-size: fs(x-big);
-    color: fs(color-p); 
+    color: color(color-p); 
 }
 
 p {
     font-family:'Work Sans';
     font-size: fs(small);
-    color:fs(color-p); 
+    color: color(color-p); 
 }
 
 h1 {
@@ -19,11 +19,18 @@ h1 {
 
 h2, h3{
     font-family:'Work Sans';
-    color:fs(color-p); 
     font-size: fs(regular);
+    color: color(color-p); 
 }
 
 h3 {
     font-family:'Work Sans';
-    color:fs(color-p); 
+    font-size: fs(regular);
+    color: color(color-p); 
+}
+
+h4, h5, h6 {
+    font-family:'Work Sans';
+    font-size: fs(small);
+    color: color(color-p); 
 }
