@@ -1,25 +1,23 @@
-:root{
-   --color_disable:#97A1AF;
-   --color_error:#F20D0D;
-   --color_bg:#454F54;
-   --color_border:#EDE7DE;
-   --color_p:#EDE7DE;
-   --color_btn:#1FADAD;
+:root {
+   --color_disable: #97a1af;
+   --color_cancel: #f20d0d;
+   --color_bg: #454f54;
+   --color_border: #ede7de;
+   --color_p: #ede7de;
+   --color_btn: #1fadad;
 }
 
-$color-vars:(
-   "color-disable" :#97A1AF,
-   "color-error" : #F20D0D,
-   "color-bg" : #454F54,
-   "color-border" : #EDE7DE,
-   "color-p" : #EDE7DE,
-   "color-btn" : #1FADAD
+$color-vars: (
+   "color-disable": #97a1af,
+   "color-cancel": #f20d0d,
+   "color-bg": #454f54,
+   "color-border": #ede7de,
+   "color-p": #ede7de,
+   "color-btn": #1fadad,
 );
 
-
-
-$primary-ff: 'Work-Sans';
-$title-ff: 'Bruno Ace';
+$primary-ff: "Work-Sans";
+$title-ff: "Bruno Ace";
 
 $font-x-small: 0.8rem;
 $font-small: 0.9rem;
@@ -29,44 +27,50 @@ $font-x-big: 5rem;
 
 //Mapa de tamaño de fuentes => Se utiliza para colores tambien
 
-      $size-vars:(
-         "x-small" :0.8,//14px
-         "small" :0.9,//16px
-         "regular" :1.25,//20px
-         "big" :2.5,//40px
-         "x-big" :4.25//68px
-      );
+$size-vars: (
+   "x-small": 0.8,
+   //14px
+   "small": 0.9,
+   //16px
+   "regular": 1.25,
+   //20px
+   "big": 2.5,
+   //40px
+   "x-big": 4.25 //68px,
+);
 
-      
-      
 //hasta aquí (mapa)
 
-@mixin font-size ($font-size :$font-regular){
-    font-size: $font-size;
-    @include mq(regular) {
-        font-size: $font-size *1.2;
-    }
+@mixin font-size($font-size: $font-regular) {
+   font-size: $font-size;
+
+   @include mq(regular) {
+      font-size: $font-size * 1.2;
+   }
 }
 
+.disable {
+   background-color: var(--color_disable);
+}
 
+.cancel {
+   background-color: var(--color_error);
+}
 
- .disable{
-    background-color: var(--color_disable);
- }
- .error{
-    background-color: var(--color_error);
- }
- .bg{
-    background-color: var(--color_bg);
- }
- .border{
-    background-color: var(--color_border);
-    color:var(--color_bg);
- }
- .p{
-    background-color: var(--color_p);
-    color:var(--color_bg);
- }
- .btn{
-    background-color: var(--color_btn);
- }
+.bg {
+   background-color: var(--color_bg);
+}
+
+.border {
+   background-color: var(--color_border);
+   color: var(--color_bg);
+}
+
+.p {
+   background-color: var(--color_p);
+   color: var(--color_bg);
+}
+
+.btn {
+   background-color: var(--color_btn);
+}

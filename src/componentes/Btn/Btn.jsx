@@ -1,15 +1,21 @@
-import './Btn.scss'
-
+import "./Btn.scss";
 
 export default function Btn() {
-
-    return (
-        <>
-        <div className="btn"></div>
-            <button className="btn__pri">Click</button>
-            <button className="btn__pri__disable">Click</button>
-            <button className="btn__error">Click</button>
-            <button className="btn__sec">Click</button>
-        </>
-    );
+	return (
+		<>
+			<div className="btn">Button</div>
+			<button className="btn__pri" type="button">
+				Click
+			</button>
+			<button className="btn__pri__disable" type="button">
+				Click
+			</button>
+			<button className="btn__cancel" type="button">
+				Click
+			</button>
+			<button className="btn__sec" type="button">
+				Click
+			</button>
+		</>
+	);
 }
