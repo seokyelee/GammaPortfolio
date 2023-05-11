@@ -8,7 +8,7 @@
 }
 
 p {
-    font-family:'Work Sans';
+    font-family: $primary-ff;
     font-size: fs(small);
     color: color(color-p); 
 }
@@ -19,19 +19,19 @@ h1 {
 }
 
 h2, h3{
-    font-family:'Work Sans';
+    font-family: $primary-ff;
     font-size: fs(regular);
     color: color(color-p); 
 }
 
 h3 {
-    font-family:'Work Sans';
+    font-family:$primary-ff;
     font-size: fs(regular);
     color: color(color-p); 
 }
 
 h4, h5, h6 {
-    font-family:'Work Sans';
+    font-family:$primary-ff;
     font-size: fs(small);
     color: color(color-p); 
 }

@@ -1,8 +1,14 @@
-@import 'variable';
-@import 'function';
-@import 'typography';
+@import '../scss/variable.scss';
+@import '../scss/function';
+@import '../scss/typography';
 
 .sg__h1{
-    color:rgb(24, 0, 241);
+    margin-top:240px;
+    color:color(color-p);
+}
+.nav__link{
+    text-decoration-line: none;
+    color:color(color-p);
+    font-family: $primary-ff;
 }
 
