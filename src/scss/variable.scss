@@ -7,6 +7,7 @@
 //   --color_btn: #1fadad;
 //}
 
+//mapa de colores
 $color-vars: (
    "color-disable": #97a1af,
    "color-cancel": #f20d0d,
@@ -16,9 +17,13 @@ $color-vars: (
    "color-btn": #1fadad,
 );
 
+
+//font-familiy
+
 $primary-ff: "Work-Sans";
 $title-ff: "Bruno Ace";
 
+//font size variable
 //$font-x-small: 0.8rem;
 //$font-small: 0.9rem;
 //$font-regular: 1.2rem;
@@ -26,7 +31,6 @@ $title-ff: "Bruno Ace";
 //$font-x-big: 5rem;
 
 //Mapa de tamaño de fuentes => Se utiliza para colores tambien
-
 $size-vars: (
    "x-small": 0.8,
    //14px
