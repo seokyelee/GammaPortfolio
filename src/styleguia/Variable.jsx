@@ -44,6 +44,41 @@ export default function Variable() {
 					convallis bibendum.
 				</p>
 			</div>
+			
+			<div class="grid">
+				<div class="grid__item grid__item--1"></div>
+				<div class="grid__item grid__item--2"></div>
+				<div class="grid__item"></div>
+				<div class="grid__item"></div>
+				<div class="grid__item"></div>
+				<div class="grid__item"></div>
+				<div class="grid__item"></div>
+				<div class="grid__item"></div>
+				<div class="grid__item"></div>
+				<div class="grid__item"></div>
+				<div class="grid__item"></div>
+			</div>
+				<div class="grid">
+				<div class="grid__item"></div>
+				<div class="grid__item"></div>
+				<div class="grid__item"></div>
+				<div class="grid__item"></div>
+				<div class="grid__item"></div>
+				<div class="grid__item"></div>
+				<div class="grid__item"></div>
+				<div class="grid__item"></div>
+				<div class="grid__item"></div>
+				<div class="grid__item"></div>
+				<div class="grid__item"></div>
+				<div class="grid__item"></div>
+			</div>
+
+			<div class="grid">
+				<div class="grid__item grid__item--6"></div>
+				<div class="grid__item grid__item--6"></div>
+			</div>
+
+
 		</>
 	);
 }
