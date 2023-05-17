@@ -3,6 +3,7 @@
 
 .title{
     font-family: $title-ff;
+    font-weight: 900;
     font-size: fs(big);
     color: color(color-p); 
 }
@@ -15,6 +16,7 @@ p {
 
 h1 {
     font-family: $title-ff;
+    font-weight: 700;
     font-size: fs(big);
 }
 
@@ -25,7 +27,7 @@ h2, h3{
 }
 
 h3 {
-    font-family:$primary-ff;
+    font-family: $primary-ff;
     font-size: fs(regular);
     color: color(color-p); 
 }

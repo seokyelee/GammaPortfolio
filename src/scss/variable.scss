@@ -17,11 +17,28 @@ $color-vars: (
    "color-btn": #1fadad,
 );
 
+//ejemplo de mapa de color de Wakkos
+//$red:red;
+//$blue:#000ff;
+//$pink: rgb(0,0, 225)
+//$mapa-colores:(
+// 'red':$red,
+// 'blue':$blue,
+// 'pink':$pink
+//);
+
+// @each $color, $i in $colors {
+//   .text-#{$color} {
+//      color: $i;
+//    .bg-#{$color} {
+//      backround-color: $i;
+//   }
+//}
+
 
 //font-familiy
-
 $primary-ff: "Work-Sans";
-$title-ff: "Bruno Ace";
+$title-ff: "Poppins";
 
 //font size variable
 //$font-x-small: 0.8rem;
@@ -79,3 +96,4 @@ $size-vars: (
 .btn {
    background-color: color(color_btn);
 }
+
