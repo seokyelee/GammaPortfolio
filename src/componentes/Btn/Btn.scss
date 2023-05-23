@@ -3,36 +3,30 @@
 
 .btn__pri{
     font-family: $primary-ff;
-    background-color: color(color-btn);
-    color: color(color-p);
-    padding: 8px 12px;
-    margin: 12px;
-    border: 0.5px solid color(color-p);
-}
-
-.btn__sec{
-    font-family: $primary-ff;
-    background-color: color(color-btn);
-    color: color(color-p);
-    padding: 8px 12px;
-    margin: 12px;
-    border: 0.5px solid color(color-p);
+    background-color: color(color-bg);
+    color: #8A4ADD;
+    padding: 12px 20px;
+    margin: 20px;
+    width: 180px;
+    border: 1px solid #8A4ADD;
 }
 
 .btn__pri__disable{
     font-family: $primary-ff;
     background-color: color(color-disable);
-    color: color(color-p);
-    margin: 12px;
-    padding: 8px 12px;
+    color: color(color-bg);
+    padding: 12px 20px;
+    margin: 20px;
+    width: 180px;
     border: 0.5px solid color(color-p);
 }
 
-.btn__cancel{
+.btn__hover{
     font-family: $primary-ff;
-    background-color: color(color-cancel);
-    color: color(color-p);
-    margin: 12px;
-    padding: 8px 12px;
-    border: 0.5px solid color(color-p);
+    background-color: color(color-btn);
+    color: color(color-bg);
+    padding: 12px 20px;
+    margin: 20px;
+    width: 180px;
+    border: 1px solid #8A4ADD;
 }

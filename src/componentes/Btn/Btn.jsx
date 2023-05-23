@@ -11,17 +11,13 @@ export default function Btn() {
 			<button className="btn__pri__disable" type="button">
 				Click
 			</button>
-			<button className="btn__cancel" type="button">
-				Click
-			</button>
-			<button className="btn__sec" type="button">
+			<button className="btn__hover" type="button">
 				Click
 			</button>
 
 			<Link className="btn__pri">Click</Link>
 			<Link className="btn__pri__disable">Click</Link>
-			<Link className="btn__cancel">Click</Link>
-			<Link className="btn__sec">Click</Link>
+			<Link className="btn__hover">Click</Link>
 		</>
 	);
 }
