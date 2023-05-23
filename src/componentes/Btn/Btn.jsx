@@ -6,13 +6,13 @@ export default function Btn() {
 		<>
 			<div className="btn">Button</div>
 			<button className="btn__pri" type="button">
-				Click
+				Let's talk
 			</button>
 			<button className="btn__pri__disable" type="button">
-				Click
+				Let's talk
 			</button>
 			<button className="btn__hover" type="button">
-				Click
+				Let's talk
 			</button>
 
 			<Link className="btn__pri">Click</Link>

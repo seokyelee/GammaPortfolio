@@ -4,11 +4,12 @@
 .btn__pri{
     font-family: $primary-ff;
     background-color: color(color-bg);
-    color: #8A4ADD;
+    color: color(color-complementario);
     padding: 12px 20px;
     margin: 20px;
     width: 180px;
-    border: 1px solid #8A4ADD;
+    border: 1px solid color(color-complementario);
+    box-shadow: 10px 5px 5px #B4B4B4;
 }
 
 .btn__pri__disable{
@@ -19,6 +20,7 @@
     margin: 20px;
     width: 180px;
     border: 0.5px solid color(color-p);
+    box-shadow: 10px 5px 5px #B4B4B4;
 }
 
 .btn__hover{
@@ -28,5 +30,6 @@
     padding: 12px 20px;
     margin: 20px;
     width: 180px;
-    border: 1px solid #8A4ADD;
+    border: 1px solid color(color-complementario);
+    box-shadow: 10px 5px 10px #B4B4B4;
 }
