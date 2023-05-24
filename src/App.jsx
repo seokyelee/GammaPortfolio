@@ -5,7 +5,9 @@ import './App.css'
 import Home from './views/home/Home'
 import Contact from './views/contact/Contact'
 import Styleguia from './styleguia/Styleguia'
-
+import Btn from './componentes/Btn/Btn'
+import Variable from './styleguia/Variable'
+import Nav from './styleguia/Nav'
 
 
 function App() {

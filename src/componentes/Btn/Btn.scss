@@ -1,7 +1,19 @@
 @import '../../scss/variable';
 @import '../../scss/function';
 
-.btn__pri{
+.btn__box {
+    font-family: $primary-ff;
+    color: color(color-p);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.btn{
+    margin-bottom: 20px;
+}
+
+.btn__box .btn__pri {
     font-family: $primary-ff;
     background-color: color(color-bg);
     color: color(color-complementario);
@@ -12,7 +24,7 @@
     box-shadow: 10px 5px 5px #B4B4B4;
 }
 
-.btn__pri__disable{
+.btn__box .btn__pri__disable {
     font-family: $primary-ff;
     background-color: color(color-disable);
     color: color(color-bg);
@@ -23,7 +35,7 @@
     box-shadow: 10px 5px 5px #B4B4B4;
 }
 
-.btn__hover{
+.btn__box .btn__hover {
     font-family: $primary-ff;
     background-color: color(color-btn);
     color: color(color-bg);

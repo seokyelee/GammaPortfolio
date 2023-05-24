@@ -9,10 +9,10 @@ function Styleguia ()  {
 
 	return ( 
 		<>
-		<h1 className="sg__h1">Hola, soy styleguia</h1>
-			<Nav />
-			<Btn />
-			<Variable />
+		<h1 className="sg__h1">Styleguia_proyectGamma_syl</h1>
+		<Nav/>
+		<Btn />
+		<Variable />
 		</>
 	);
 }

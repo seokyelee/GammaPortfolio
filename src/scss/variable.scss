@@ -17,7 +17,7 @@ $color-vars: (
    "color-bg": #ffffff,
    "color-border": #8E8E8E,
    "color-p": #8E8E8E,
-   "color-btn": #36ACB4
+   "color-btn": #00FFF0
 );
 
 //ejemplo de mapa de color de Wakkos
@@ -73,30 +73,52 @@ $size-vars: (
       font-size: $font-size * 1.2;
    }
 }
+.color__box li{
+   font-family: $primary-ff;
+   font-size: fs(regular);
+   color: rgb(99, 99, 99); 
+   list-style: none;
+   text-align: left;
+   padding-left: 8px;
+   border-width: 1px ;
+   border-style: solid;
+   border-color: color(color-border);
+}
 
 .disable {
    background-color: color(color-disable);
-}
-
-.cancel {
-   background-color: color(color-cancel);
+   height: 70px;
 }
 
 .bg {
    background-color: color(color-bg);
+   height: 70px;
 }
 
 .border {
    background-color: color(color-p);
    color: color(color-bg);
+   height: 70px;
 }
 
 .p {
    background-color: color(color-p);
    color: color(color_bg);
+   height: 70px;
 }
 
-.btn {
-   background-color: color(color_btn);
+.color_btn {
+   background-color: color(color-btn);
+   height: 70px;
+}
+.complementario{
+   background-color: color(color-complementario);
+   height: 70px;
+}
+
+.font__box{
+display: flex;
+justify-content: center;
+flex-direction: column;
 }
 
