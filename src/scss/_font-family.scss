@@ -2,19 +2,8 @@
     font-family: 'CabinetGrotesk';
     font-weight:700;
     src: url(/assets/font/CabinetGrotesk-Bold.woff2);
+    src: url(/assets/font/CabinetGrotesk-Extrabold.otf);
+    src: url(/assets/font/CabinetGrotesk-Black.otf);
 }
 
-@font-face {
-    font-family: 'SpaceGrodesk';
-    src: url(/assets/font/SpaceGrotesk-Medium.woff2);
-}
-
-@font-face {
-    font-family: 'SpaceGrodesk';
-    src: url(/assets/font/SpaceGrotesk-Regular.woff2);
-}
-
-@font-face {
-    font-family: 'SpaceGrodesk';
-    src: url(/assets/font/SpaceGrotesk-Bold.woff2);
-}
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');

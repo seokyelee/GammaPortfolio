@@ -1,3 +1,5 @@
+@import 'font-family';
+
 //:root {
 //   --color_disable: #97a1af;
 //   --color_cancel: #f20d0d;
@@ -8,6 +10,7 @@
 //}
 
 //mapa de colores
+
 $color-vars: (
    "color-disable": #97a1af,
    "color-complementario": #8A4ADD,
@@ -37,8 +40,8 @@ $color-vars: (
 
 
 //font-familiy
-$primary-ff: 'Space Grotesk';
-$title-ff: "Cabinet Grotesk";
+$primary-ff: "Space Grotesk";
+$title-ff: "Cabinet Grotesk-Extrabold";
 
 //font size variable
 //$font-x-small: 0.8rem;

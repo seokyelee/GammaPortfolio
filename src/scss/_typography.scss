@@ -1,10 +1,11 @@
+@import 'font-family';
 @import 'variable';
 @import 'function';
 
+
 .title{
     font-family: $title-ff;
-    font-weight: 700;
-    font-size: fs(big);
+    font-size: fs(x-big);
     color: color(color-p); 
 }
 
@@ -16,7 +17,6 @@ p {
 
 h1 {
     font-family: $title-ff;
-    font-weight: 700;
     font-size: fs(big);
 }
 

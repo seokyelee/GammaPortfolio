@@ -6,9 +6,6 @@
 
 
 
-
-
-
 html {
     box-sizing: border-box;
 }
@@ -17,7 +14,7 @@ body {
     margin: 0;
     display: flex;
     place-items: center;
-    width: 100%;
+    width: 100vw;
     min-width: 320px;
     min-height: 100vh;
     max-width: 1440px;
@@ -38,28 +35,29 @@ header {
 }
 
 a:-webkit-any-link {
-    
     padding: 20px;
     color:color(color-p);
     text-decoration: none;
-    border-width: 1px 0.5px 1px 1px;
-    border-style: solid;
-    border-color: color(color-border);
+    font-family: $primary-ff;
 }
 
 .nav-box {
     width: 100vw;
     height: 120px;
-    border: 0.5px solid color(color-border);
+    border-width: 1px ;
+    border-style: solid;
+    border-color: color(color-border);
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-li {
-    list-style: none;
+li.nav__item {
+    border-width: 0px 0px 0px 1px;
+    border-color: color(color-border);
+    border-style: solid;
+    list-style: none;                                                
     padding: 30px;
     display: flex;
     flex-direction: row;
-    
 }
