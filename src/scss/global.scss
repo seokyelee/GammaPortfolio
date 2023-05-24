@@ -9,7 +9,7 @@
 
 
 
-html{
+html {
     box-sizing: border-box;
 }
 
@@ -31,10 +31,20 @@ header {
     left: 0;
     background-color: color(color-bg);
 }
+
 .section {
     width: 100%;
     color: color(color-p);
-    border: 0.5px solid color(color-border);
+}
+
+a:-webkit-any-link {
+    
+    padding: 20px;
+    color:color(color-p);
+    text-decoration: none;
+    border-width: 1px 0.5px 1px 1px;
+    border-style: solid;
+    border-color: color(color-border);
 }
 
 .nav-box {
@@ -51,5 +61,5 @@ li {
     padding: 30px;
     display: flex;
     flex-direction: row;
-    border: 0.5px solid color(color-border);
+    
 }

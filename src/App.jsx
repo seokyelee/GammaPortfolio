@@ -14,15 +14,15 @@ function App() {
     <>
     <header className="section">
       <h1 className="title">Proyect Gamma</h1>
-      <Link to="/contact">Contacto</Link>
-      <Link to="/">Home</Link>
-      <Link to="/styleguia">Styleguia</Link>
+      <Link className="page_home" to="/">Home</Link>
+      <Link className="page_style" to="/styleguia">Styleguia</Link>
+      <Link className="page_contact" to="/contact">Contacto</Link>
     </header>
     <main>
-      <Routes>
+      <Routes >
         <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
         <Route path="/styleguia" element={<Styleguia />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </main>
     </>
