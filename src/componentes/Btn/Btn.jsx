@@ -5,6 +5,7 @@ export default function Btn() {
 	return (
 		<>
 		<section className="btn__box">
+		<h2 className="sub_title">Botones</h2>
 			<div className="btn">Button
 			<button className="btn__pri" type="button">
 				Let's talk

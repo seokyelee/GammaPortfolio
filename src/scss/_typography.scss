@@ -3,10 +3,16 @@
 @import 'function';
 
 
-.title{
+.sub_title{
+    padding-top:50px;
+    color:color(color-p);
+}
+
+.title, .font__box .exemple_title{
+    margin:24px 0px;
     font-family: $title-ff;
     font-size: fs(x-big);
-    color: color(color-p); 
+    color: black;
 }
 
 p {
@@ -16,23 +22,28 @@ p {
 }
 
 h1 {
+    margin:12px 0px;;
     font-family: $title-ff;
     font-size: fs(big);
+    color: color(color-p); 
 }
 
 h2, h3{
+    margin:8px 0px;
     font-family: $primary-ff;
     font-size: fs(regular);
     color: color(color-p); 
 }
 
 h3 {
+    margin: 8px 0px;
     font-family: $primary-ff;
     font-size: fs(regular);
     color: color(color-p); 
 }
 
 h4, h5, h6 {
+    margin: 8px 0px;
     font-family:$primary-ff;
     font-size: fs(small);
     color: color(color-p); 

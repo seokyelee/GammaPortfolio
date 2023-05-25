@@ -2,7 +2,7 @@ export default function Variable() {
 	return (
 		<>
 			<div className="color__box">
-				<h2>Paleta de colores</h2>
+				<h2 className="sub_title">Paleta de colores</h2>
 				<ul>
 					<li className = "p">color parrafo:#777777</li>
 					<li className = "border">color border:#8E8E8E</li>
@@ -13,7 +13,15 @@ export default function Variable() {
 				</ul>
 			</div>
 
+			
+			<h2 className="sub_title">Tipografía</h2>
 			<div className="font__box">
+				<h1 className="exemple_title">
+					Titulo - Lorem ipsum dolor sit amet consectetur 
+				</h1>
+				<h1>
+					h1 - Lorem ipsum dolor sit amet consectetur adipiscing elit 
+				</h1>
 				<h2>
 					h2 - Lorem ipsum dolor sit amet consectetur adipiscing elit donec
 					venenatis morbi sociosqu mattis
@@ -34,7 +42,11 @@ export default function Variable() {
 					h6 - Lorem ipsum dolor sit amet consectetur adipiscing elit donec
 					venenatis morbi sociosqu mattis
 				</h6>
-				<p>
+				</div>
+				
+				<h2> Parrafo</h2>
+				<div>
+				<p className="exemple__p">
 					Paragraph - Lorem ipsum dolor sit amet consectetur adipiscing elit
 					donec, venenatis morbi sociosqu mattis porta nullam nulla molestie
 					luctus, convallis mi phasellus augue vestibulum cursus sociis.

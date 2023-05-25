@@ -1,6 +1,5 @@
 
 import "./Styleguia.scss";
-import Nav from "./Nav";
 import Btn from "../componentes/Btn/Btn";
 import Variable from "./Variable";
 import IconCodepen from "../componentes/Icons/IconCodepen"
@@ -8,6 +7,7 @@ import IconLikedin from "../componentes/Icons/IconLinkedin";
 import IconGit from "../componentes/Icons/iconGit";
 import IconMail from "../componentes/Icons/IconMail";
 import IconMoon from "../componentes/Icons/IconMoon";
+import Nav from "../componentes/Nav/Nav";
 
 function Styleguia ()  {
 
@@ -15,7 +15,7 @@ function Styleguia ()  {
 		<>
 		<h1 className="sg__h1">Styleguia of proyectGamma by syl</h1>
 		<Nav/>
-		<h2>Icons</h2>
+		<h2 className="sub_title">Icons</h2>
 			<section className="Icons__box">
 				<div className="Icons__box__links">
 				<IconCodepen/>
