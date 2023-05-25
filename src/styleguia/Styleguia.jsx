@@ -4,7 +4,7 @@ import Btn from "../componentes/Btn/Btn";
 import Variable from "./Variable";
 import IconCodepen from "../componentes/Icons/IconCodepen"
 import IconLikedin from "../componentes/Icons/IconLinkedin";
-import IconGit from "../componentes/Icons/iconGit";
+import IconGit from "../componentes/Icons/IconGit";
 import IconMail from "../componentes/Icons/IconMail";
 import IconMoon from "../componentes/Icons/IconMoon";
 import Nav from "../componentes/Nav/Nav";
