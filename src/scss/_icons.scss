@@ -1,0 +1,51 @@
+.icon__codepen{
+    width:32px;
+    height:32px;
+}
+
+.icon__git{
+    width:32px;
+    height:32px;
+}
+
+.icon__likedin{
+    width:32px;
+    height:32px;
+}
+
+.icon__moon{
+    width:32px;
+    height:32px;
+}
+
+.icon__mail{
+    width:32px;
+    height:32px;
+}
+
+.Icons__box{
+    display: flex;
+    justify-content: space-around;
+    border-width: 1px ;
+    border-style: solid;
+    border-color: color(color-border);
+}
+.Icons__box__links{
+    border-width: 0px 01px 0px 1px;
+    border-color: color(color-border);
+    border-style: solid;
+}
+
+.Icons__box__mailMoon{
+    border-width: 0px 01px 0px 1px;
+    border-color: color(color-border);
+    border-style: solid;
+}
+.Icons__box__links svg{
+    padding: 20px;
+}
+
+.Icons__box__mailMoon svg{
+    padding: 20px;
+}
+

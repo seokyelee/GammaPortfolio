@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 export default function Nav() {
 	return (
 		<>
+		<h2>Navegación</h2>
 			<ul className='nav-box'>
 				<li className="nav__item">
 					<Link className="nav__link" to='#'>

@@ -4,12 +4,12 @@ export default function Variable() {
 			<div className="color__box">
 				<h2>Paleta de colores</h2>
 				<ul>
-					<li className= "disable">color disable:#97A1AF</li>
-					<li className= "border">color border:#8E8E8E</li>
-					<li className= "bg">color fondo:#ffffff</li>
-					<li className= "p">color parrafo:#8E8E8E</li>
-					<li className= "color_btn">color botones:#00FFF0</li>
-					<li className= "complementario">color complementario: #8A4ADD</li>
+					<li className = "p">color parrafo:#777777</li>
+					<li className = "border">color border:#8E8E8E</li>
+					<li className = "disable">color disable:#D3D3D3</li>
+					<li className = "bg">color fondo:#ffffff</li>
+					<li className = "color_btn">color botones:#00FFF0</li>
+					<li className = "complementario">color complementario: #8A4ADD</li>
 				</ul>
 			</div>
 
