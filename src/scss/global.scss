@@ -4,6 +4,7 @@
 @import 'typography';
 @import 'grid';
 @import 'icons';
+@import '../componentes/Btn/Btn.scss';
 
 
 html {
@@ -17,7 +18,7 @@ body {
     width: 100vw;
     min-width: 320px;
     min-height: 100vh;
-    max-width: 1440px;
+    
     background-color: color(color-bg);
 }
 

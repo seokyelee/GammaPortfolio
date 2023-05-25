@@ -1,11 +1,25 @@
+
 import { Link } from "react-router-dom";
-import "./Btn.scss";
+import { useState } from "react";
+
 
 export default function Btn() {
+
+	let [classText, setClassText] = useState('');
+	
+	function changeClass(){
+		if (classText === 'active') {
+			setClassText('');
+		}else{
+			setClassText('active');
+		}
+	}
 	return (
 		<>
-		<section className="btn__box">
-		<h2 className="sub_title">Botones</h2>
+	
+		<h2 className="sub_title" onClick={changeClass}>Botones</h2>
+		<section className={'btn__container' + classText}>
+			<article className='btn__box'>
 			<div className="btn">Button
 			<button className="btn__pri" type="button">
 				Let's talk
@@ -22,6 +36,7 @@ export default function Btn() {
 			<Link className="btn__pri__disable">Click</Link>
 			<Link className="btn__hover">Click</Link>
 			</div>
+		</article>
 		</section>
 		</>
 	);
