@@ -73,13 +73,14 @@ $size-vars: (
       font-size: $font-size * 1.2;
    }
 }
+
 .color__box li{
    font-family: $primary-ff;
-   font-size: fs(regular);
+   font-size: fs(small);
    color: rgb(53, 53, 53); 
    list-style: none;
    text-align: left;
-   padding-left: 8px;
+   padding: 8px;
    border: 1px solid color(color-border);
 }
 
@@ -109,6 +110,7 @@ $size-vars: (
    background-color: color(color-btn);
    height: 70px;
 }
+
 .complementario{
    background-color: color(color-complementario);
    height: 70px;
@@ -118,5 +120,6 @@ $size-vars: (
 display: flex;
 justify-content: center;
 flex-direction: column;
+text-align: left;
 }
 
