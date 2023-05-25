@@ -5,7 +5,7 @@
 @import 'grid';
 @import 'icons';
 @import '../componentes/Btn/Btn.scss';
-
+@import '../styleguia/Styleguia.scss';
 
 html {
     box-sizing: border-box;
@@ -18,10 +18,13 @@ body {
     width: 100vw;
     min-width: 320px;
     min-height: 100vh;
-    
     background-color: color(color-bg);
 }
 
+.section {
+    width: 100%;
+    color: color(color-p);
+}
 
 header {
     position: absolute;
@@ -30,10 +33,6 @@ header {
     background-color: color(color-bg);
 }
 
-.section {
-    width: 100%;
-    color: color(color-p);
-}
 
 
 main{

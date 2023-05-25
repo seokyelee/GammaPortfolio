@@ -37,3 +37,11 @@ li.nav__item {
     display: none;
 }
 
+.sub_title{
+    cursor: pointer;
+    padding-top:50px;
+    color:color(color-p);
+}
+.sub_title :hover {
+    color:color(color-complementario);
+}
