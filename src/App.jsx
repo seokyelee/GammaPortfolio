@@ -1,6 +1,14 @@
-import { Link } from 'react-router-dom'
-import './scss/global.scss'
+import React from "react";
+import { Link, Router, Route} from 'react-router-dom'
+import './scss/global'
+import './assets/Icons/IconMail'
+import './assets/Icons/IconMoon'
+import './assets/Icons/IconCodepen'
+import './assets/Icons/IconGit'
+import './assets/Icons/IconLinkedin'
+import './scss/variable.scss'
 import './App.css'
+
 
 function App() {
 
@@ -36,7 +44,6 @@ function App() {
     </>
   );
 }
-
 
 
 export default App

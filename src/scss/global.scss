@@ -2,10 +2,9 @@
 @import 'variable';
 @import 'function';
 @import 'typography';
-@import 'grid';
 @import 'icons';
 @import '../componentes/Btn/Btn.scss';
-@import '../styleguia/Styleguia.scss';
+
 
 html {
     box-sizing: border-box;
@@ -21,10 +20,6 @@ body {
     background-color: color(color-bg);
 }
 
-.section {
-    width: 100%;
-    color: color(color-p);
-}
 
 header {
     position: absolute;
