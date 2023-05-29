@@ -1,6 +1,12 @@
-
+import React from 'react';
 import { Link } from "react-router-dom";
-
+import './scss/global.scss'
+import './scss/icons.scss'
+import './assets/Icons/IconMail';
+import './assets/Icons/IconMoon';
+import './assets/Icons/IconCodepen';
+import './assets/Icons/IconGit';
+import './assets/Icons/IconLinkedin';
 
 
 export default function Nav() {
