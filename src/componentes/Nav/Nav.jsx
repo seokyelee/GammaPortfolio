@@ -2,16 +2,14 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import './Nav.scss';
 import '../../scss/global.scss';
-import '../../assets/Icons/IconMail';
-import '../../assets/Icons/IconMoon';
-import '../../assets/Icons/IconCodepen';
-import '../../assets/Icons/IconGit';
-import '../../assets/Icons/IconLinkedin';
+import IconMoon from '../../assets/Icons/IconMoon';
+import IconMail from '../../assets/Icons/IconMail';
+import IconCodepen from '../../assets/Icons/IconCodepen';
+import IconGit from '../../assets/Icons/IconGit';
+import IconLinkedin from '../../assets/Icons/IconLinkedin';
 
 
 export default function Nav() {
-
-
 
 return (
 	<>
@@ -21,6 +19,12 @@ return (
 				<li className="nav__item">
 					<Link className="icono_mail" to="https://www.google.com/">
 						<IconMail />
+					</Link>
+				</li>
+			
+				<li className="nav__item">
+					<Link className="icono_moon" to="https://www.google.com/">
+						<IconMoon />
 					</Link>
 				</li>
 				<li className="nav__item">
@@ -38,16 +42,8 @@ return (
 						<IconLinkedin />
 					</Link>
 				</li>
-				<li className="nav__item">
-					<Link className="icono_mail" to="https://www.google.com/">
-						<IconMail />
-					</Link>
-				</li>
-				<li className="nav__item">
-					<Link className="nav__link" to='#'>
-						Home
-					</Link>
-				</li>
+				
+			
 				<li className="nav__item">
 					<Link className="page_home" to="/">Home</Link>
 				</li>
