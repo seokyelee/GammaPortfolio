@@ -5,6 +5,7 @@ import './Home.scss'
 export default function Home() {
     return (
         <>
+        <main>
             <div className="typeit">
                 <TypeIt
                     getBeforeInit={(instance) => {
@@ -22,6 +23,7 @@ export default function Home() {
                     }}
                 />;
             </div>
+            </main>
         </>
     );
 }

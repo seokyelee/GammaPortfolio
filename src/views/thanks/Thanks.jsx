@@ -1,10 +1,11 @@
 import React from "react";
-import "./Thanks.scss";
 import BacorderSmall from "../../assets/img/BacorderSmall";
+import "./Thanks.scss";
 
 export default function Thanks() {
   return (
     <>
+    <main>
       <div className="bacode__thanks">
         <BacorderSmall />
       </div>
@@ -14,6 +15,7 @@ export default function Thanks() {
           Be the place where I will put my <span>roots.</span>
         </h3>
       </section>
+      </main>
     </>
   );
 }
