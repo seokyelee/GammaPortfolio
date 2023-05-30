@@ -1,5 +1,4 @@
 import React from "react";
-import BacorderSmall from "../../assets/img/BacorderSmall";
 import "./Thanks.scss";
 import BacorderLast from "../../assets/img/BacorderLast";
 
