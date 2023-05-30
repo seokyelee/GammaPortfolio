@@ -9,10 +9,12 @@
 
 html {
     box-sizing: border-box;
+    margin:0 auto;
+    padding:0;
 }
 
 body {
-    margin: 0 auto;
+    margin: 0.5 auto;
     display: flex;
     justify-content: center;
     width: 100vw;
@@ -35,7 +37,7 @@ main{
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    max-width: 90vw;
+    max-width: 100%;
     margin:0;
 }
 

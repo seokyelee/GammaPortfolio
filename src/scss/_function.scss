@@ -1,3 +1,5 @@
+
+
 @function fs($font-size) {
    @return map-get($size-vars, $font-size)* 1rem;
 }
@@ -5,3 +7,7 @@
 @function color($color) {
    @return map-get($color-vars, $color);
 }
+
+//@function pd($padding) {
+//   @return map-get($padding-vars, $padding)* 1px;
+//}
