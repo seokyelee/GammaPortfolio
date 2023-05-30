@@ -12,35 +12,13 @@ $color-vars: (
    "color-btn": #00FFF0
 );
 
-//ejemplo de mapa de color de Wakkos
-//$red:red;
-//$blue:#000ff;
-//$pink: rgb(0,0, 225)
-//$mapa-colores:(
-// 'red':$red,
-// 'blue':$blue,
-// 'pink':$pink
-//);
-
-// @each $color, $i in $colors {
-//   .text-#{$color} {
-//      color: $i;
-//    .bg-#{$color} {
-//      backround-color: $i;
-//   }
-//}
 
 
 //font-familiy
 $primary-ff: "Space Grotesk";
 $title-ff: "Cabinet Grotesk-Extrabold";
 
-//font size variable
-//$font-x-small: 0.8rem;
-//$font-small: 0.9rem;
-//$font-regular: 1.2rem;
-//$font-big: 3rem;
-//$font-x-big: 5rem;
+
 
 //Mapa de tamaño de fuentes => Se utiliza para colores tambien
 $size-vars: (
