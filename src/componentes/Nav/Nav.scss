@@ -1,1 +1,31 @@
 
+.nav__container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    border: 1px solid color(color-border);
+    flex-direction: row;
+}
+
+.nav__box__left{
+    display: flex;
+    justify-content: center;
+   flex-direction: row;
+}
+
+.nav__box__center{
+    display: flex;
+    justify-content: center;
+   flex-direction: row;
+}
+.nav__box__right{
+    display: flex;
+    justify-content: center;
+   flex-direction: row;
+}
+
+.nav__item{
+    list-style: none; 
+}

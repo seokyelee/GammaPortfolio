@@ -4,6 +4,7 @@
 @import './typography';
 @import './icons';
 @import '../componentes/Btn/Btn.scss';
+@import '../componentes/Nav/Nav.scss';
 
 
 html {
@@ -16,7 +17,6 @@ body {
     justify-content: center;
     width: 100vw;
     min-width: 320px;
-    min-height: 100vh;
     background-color: color(color-bg);
 }
 
