@@ -1,11 +1,14 @@
+
+
 :root{
     --ti-cursor-margin-left:0.2em;
     --ti-cursor-color:aqua;
 }
 
 .typeit{
-    font-family: $title-ff;
     margin:0 auto;
+    font-family: $title-ff;
+    font-size:2.6rem;
     display: block;
     justify-content: center;
     flex-wrap: wrap;
@@ -13,5 +16,5 @@
     min-width: 320px;
     padding-left:15%;
     padding-top: 120px;
-    font-size:2.6rem
+    color:black;
 }
