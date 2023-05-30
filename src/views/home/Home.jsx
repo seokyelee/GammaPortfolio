@@ -1,5 +1,6 @@
 import React from "react";
 import TypeIt from "typeit-react";
+import '../../scss/global'
 import './Home.scss'
 
 export default function Home() {
