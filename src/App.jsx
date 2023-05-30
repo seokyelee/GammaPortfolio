@@ -9,6 +9,7 @@ import About from "./views/about/About";
 import Thanks from "./views/thanks/Thanks";
 
 
+
 function App() {
 
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/thanks" element={<Thanks />} />
       </Routes>
     </main>
+
 
     </>
   );
