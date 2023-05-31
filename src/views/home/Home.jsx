@@ -5,25 +5,25 @@ import './Home.scss'
 export default function Home() {
     return (
         <>
-        <main>
-            <div className="typeit">
-                <TypeIt
+       <main>
+       <div >
+                <TypeIt className="typeit"
                     getBeforeInit={(instance) => {
-                        instance.type("I want be a", { delay: 300 })
-                            .type("<br>Good Developer.", { delay: 3000 })
-                            .delete(10, { delay: 1000 })
-                            .type("Designer.", { delay: 3000 })
-                            .delete(14, { delay: 1000 })
-                            .type("above all", { delay: 3000 })
-                            .delete(21, { delay: 3000 })
-                            .type("<strong>Good person.</strong>", { delay: 600 })
-                            .go()
+                        instance.type("I want to be")
+                            .pause(2000).delete(12).pause(1800)
+                            .type("a Good Developer").pause(2000)
+                            .delete(9).pause(1200)
+                            .type("Designer").pause(2000)
+                            .delete(15).pause(1200)
+                            .type("but above all").pause(2200)
+                            .delete(13).pause(2000)
+                            .type("a Good") .pause(1000).type(" Person")
                         // Remember to return it!
                         return instance;
                     }}
                 />;
             </div>
-            </main>
+        </main>
         </>
     );
 }

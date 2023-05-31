@@ -7,7 +7,7 @@
     width: 100vw;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     border: 1px solid color(color-border);
     flex-direction: row;
 }
@@ -21,7 +21,7 @@
     &__item {
         border-right: 1px solid color(color-border);
         list-style: none;
-        padding: var(--pd_3);
+        padding: var(--pd_5);
     }
 }
 
@@ -35,7 +35,7 @@
 
     &__item {
         list-style: none;
-        padding: var(--pd_3);
+        padding: var(--pd_5);
     }
 }
 
@@ -50,7 +50,7 @@
     &__item {
         border-right: 1px solid color(color-border);
         list-style: none;
-        padding: var(--pd_3);
+        padding: var(--pd_5);
     }
 }
 
