@@ -3,8 +3,27 @@
 @import "../../scss/variable";
 @import "../../scss/function";
 
-.footer__box{
-    width: 100%;
-    height: 170px;
-    border: 1px solid color(color-border);
+footer{
+    display: flex;
+   
 }
+
+.footer__box{
+    height: auto;
+    margin: 4px;
+    padding: 12px;
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    gap: 12px;
+    border: 1px solid color(color-border);
+    align-items: center;
+}
+
+.description{
+    text-align: justify;
+}
+
+.acoder_sm{
+    margin:0;
+}
+

@@ -8,6 +8,10 @@
     --ti-cursor-color: #00FFF0;
 }
 
+[data-typeit-id='5042987'] .ti-cursor{
+    transform: var(--ti-cursor-transform, translateX(0.2em));
+}
+
 .typeit{
     margin:0 auto;
     font-family: $title-ff;

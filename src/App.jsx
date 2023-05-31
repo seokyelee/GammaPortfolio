@@ -1,12 +1,14 @@
 import React from "react";
+import { Route, Routes } from "react-router-dom";
 import './App.css';
 import './scss/global.scss';
-import Nav from "./componentes/Nav/Nav";
-import { Route, Routes } from "react-router-dom";
+import './scss/variable.scss';
 import Home from "./views/home/Home";
 import Work from "./views/work/Work";
 import About from "./views/about/About";
 import Thanks from "./views/thanks/Thanks";
+import Nav from "./componentes/Nav/Nav";
+import Footer from "./componentes/Footer/Footer";
 
 
 
@@ -25,6 +27,8 @@ function App() {
       </Routes>
     </main>
 
+
+  <Footer/>
 
     </>
   );

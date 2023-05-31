@@ -4,20 +4,17 @@
 @import "../../scss/function";
 
 .nav {
-    width: 100vw;
-    height: auto;
+    margin: 3px;
     display: grid;
     grid-template-columns: 1fr 6fr 2fr 2fr 3fr;
-    align-items: center;
     border: 1px solid color(color-border);
-    flex-direction: row;
     grid-auto-rows: minmax(80px, auto);
 }
 
 .nav__box__left {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
+    
     &__item {
         border-right: 1px solid color(color-border);
         list-style: none;
@@ -30,7 +27,7 @@
     justify-content: center;
     flex-direction: row;
     border-right: 1px solid color(color-border);
-    align-items: center;
+
     &__item {
         list-style: none;
         padding: var(--pd_4);
@@ -38,17 +35,22 @@
 }
 
 .nav__box__right {
+    display: grid;
+    font-family: $primary-ff;
+    font-size: fs(small);
+    list-style: none;
 
     &__item_home,
-    &__item_work,
-    &__item_about {
-        display: grid;
+    &__item_work {
         border-right: 1px solid color(color-border);
-        font-family: $primary-ff;
-        font-size: fs(small);
-        align-items: center;
         text-align: center;
-        list-style: none;
+        align-items: center;
+        padding: var(--pd_4);
+    }
+    &__item_about {
+        border-right: nene;
+        text-align: center;
+        align-items: center;
         padding: var(--pd_4);
     }
 }

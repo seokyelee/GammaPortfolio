@@ -2,11 +2,12 @@ import React from "react";
 import TypeIt from "typeit-react";
 import './Home.scss'
 
+
 export default function Home() {
     return (
         <>
        <main>
-       <div >
+       <div className="typeit_container">
                 <TypeIt className="typeit"
                     getBeforeInit={(instance) => {
                         instance.type("I want to be")
@@ -21,7 +22,7 @@ export default function Home() {
                         // Remember to return it!
                         return instance;
                     }}
-                />;
+                />
             </div>
         </main>
         </>
