@@ -5,7 +5,7 @@ import BacoderLast from "../../assets/img/BacoderLast";
 export default function Thanks() {
   return (
     <>
-    <main>
+    <main className="thanks-container">
       <div className="bacode__thanks">
         <BacoderLast />
       </div>

@@ -1,12 +1,20 @@
 @import '../../scss/variable.scss';
 
+.thanks-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
 .thanks__box {
     font-family: $primary-ff;
 }
 
 .bacode__thanks {
     width: 100%;
-    height: 50%;
+    margin:0;
+    align-items: flex-start;
 }
 
 .be__root span {
