@@ -7,7 +7,7 @@
     width: 100vw;
     height: auto;
     display: grid;
-    grid-template-columns: 1fr 4fr 2fr 2fr 3fr;
+    grid-template-columns: 1fr 6fr 2fr 2fr 3fr;
     align-items: center;
     border: 1px solid color(color-border);
     flex-direction: row;
@@ -17,7 +17,7 @@
 .nav__box__left {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
+    align-items: center;
     &__item {
         border-right: 1px solid color(color-border);
         list-style: none;
@@ -30,7 +30,7 @@
     justify-content: center;
     flex-direction: row;
     border-right: 1px solid color(color-border);
-
+    align-items: center;
     &__item {
         list-style: none;
         padding: var(--pd_4);
@@ -47,6 +47,7 @@
         font-family: $primary-ff;
         font-size: fs(small);
         align-items: center;
+        text-align: center;
         list-style: none;
         padding: var(--pd_4);
     }
