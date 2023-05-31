@@ -45,23 +45,24 @@ export default function Nav() {
 						</Link>
 					</li>
 				</ul>
-				<ul className="nav__box__right">
-					<li className="nav__box__right__item">
+				
+					
+					<div className="nav__box__right__item_home">
 						<Link className="page_home" to="/">
 							Home
 						</Link>
-					</li>
-					<li className="nav__box__right__item">
+					</div>
+					<div className="nav__box__right__item_work">
 						<Link className="page_work" to="/work">
 							Work
 						</Link>
-					</li>
-					<li className="nav__box__right__item">
+					</div>
+					<div className="nav__box__right__item_about">
 						<Link className="page_about" to="/about">
 							My name is Seokye
 						</Link>
-					</li>
-				</ul>
+					</div>
+			
 			</section>
 		</>
 	);

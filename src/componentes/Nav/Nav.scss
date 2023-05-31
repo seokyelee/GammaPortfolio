@@ -5,52 +5,50 @@
 
 .nav {
     width: 100vw;
-    display: flex;
-    justify-content: space-between;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr 2fr 3fr;
     align-items: center;
     border: 1px solid color(color-border);
     flex-direction: row;
+    grid-auto-rows: minmax(80px, auto);
 }
 
 .nav__box__left {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    height: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
     &__item {
         border-right: 1px solid color(color-border);
         list-style: none;
-        padding: var(--pd_5);
+        padding: var(--pd_4);
     }
 }
 
 .nav__box__center {
     display: flex;
     justify-content: center;
-    flex: 2;
     flex-direction: row;
     border-right: 1px solid color(color-border);
-    height: 90px;
 
     &__item {
         list-style: none;
-        padding: var(--pd_5);
+        padding: var(--pd_4);
     }
 }
 
 .nav__box__right {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    font-family: $primary-ff;
-    font-size: fs(small);
-    height: 90px;
 
-    &__item {
+    &__item_home,
+    &__item_work,
+    &__item_about {
+        display: grid;
         border-right: 1px solid color(color-border);
+        font-family: $primary-ff;
+        font-size: fs(small);
+        align-items: center;
         list-style: none;
-        padding: var(--pd_5);
+        padding: var(--pd_4);
     }
 }
 
@@ -64,5 +62,4 @@ li {
 
 .nav__item {
     list-style: none;
-    padding: var(--pd_3);
 }
