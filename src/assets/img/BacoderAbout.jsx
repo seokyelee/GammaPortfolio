@@ -1,4 +1,9 @@
-<svg width="1440" height="208" viewBox="0 0 1440 208" fill="none" xmlns="http://www.w3.org/2000/svg">
+import React from 'react'
+
+export default function BacoderAbout() {
+  return (
+    <div>
+        <svg width="1440" height="208" viewBox="0 0 1440 208" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M1440 208V0H1435.77V208H1440ZM1433.65 208V0H1427.3V208H1433.65ZM1425.18 208V0H1423.06V208H1425.18Z" fill="url(#paint0_linear_81_235)"/>
 <path d="M1416.71 208V0H1414.59V208H1416.71ZM1408.24 208V0H1399.77V208H1408.24ZM1397.65 208V0H1395.53V208H1397.65Z" fill="url(#paint1_linear_81_235)"/>
 <path d="M1393.41 208V0H1389.18V208H1393.41ZM1387.06 208V0H1382.83V208H1387.06ZM1380.71 208V0H1372.24V208H1380.71Z" fill="url(#paint2_linear_81_235)"/>
@@ -498,3 +503,7 @@
 </linearGradient>
 </defs>
 </svg>
+
+    </div>
+  )
+}

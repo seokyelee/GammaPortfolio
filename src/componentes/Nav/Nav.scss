@@ -35,6 +35,8 @@
 }
 
 .nav__box__right {
+    
+
     &__item_home,
     &__item_work {
         display: grid;
@@ -44,7 +46,9 @@
         text-align: center;
         align-items: center;
         padding: var(--pd_4);
+        color:color(color-p);
     }
+
     &__item_about {
         display: grid;
         font-family: $primary-ff;
@@ -53,6 +57,7 @@
         text-align: center;
         align-items: center;
         padding: var(--pd_4);
+        color:color(color-btn);
     }
 }
 
