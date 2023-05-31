@@ -35,20 +35,21 @@
 }
 
 .nav__box__right {
-    display: grid;
-    font-family: $primary-ff;
-    font-size: fs(small);
-    list-style: none;
-
     &__item_home,
     &__item_work {
+        display: grid;
+        font-family: $primary-ff;
+        font-size: fs(small);
         border-right: 1px solid color(color-border);
         text-align: center;
         align-items: center;
         padding: var(--pd_4);
     }
     &__item_about {
-        border-right: nene;
+        display: grid;
+        font-family: $primary-ff;
+        font-size: fs(small);
+        border-right: none;
         text-align: center;
         align-items: center;
         padding: var(--pd_4);

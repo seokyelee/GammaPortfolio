@@ -24,6 +24,10 @@ body {
     background-color: color(color-bg);
 }
 
+#root{
+    display: flex;
+    flex-direction: column;
+}
 
 header {
     position: absolute;
@@ -35,6 +39,7 @@ header {
 
 main{
     display: flex;
+    flex:1;
     justify-content: center;
     flex-direction: column;
     text-align: center;
