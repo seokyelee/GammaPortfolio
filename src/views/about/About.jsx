@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div>
+    <div className="about_box">
       <p className="about__p">
         Lorem ipsum dolor sit amet consectetur adipiscing, elit pretium primis
         sapien scelerisque felis, ultricies per mauris natoque nisl. Arcu aptent
