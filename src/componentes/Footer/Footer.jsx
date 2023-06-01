@@ -19,8 +19,8 @@ export default function Footer() {
           </p>
 
           
-          <BacoderSmall className="bacoder_sm"/>
-        
+          <BacoderSmall className="bacoder_s"/>
+  
 
         </div>
       </footer>

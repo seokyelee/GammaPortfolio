@@ -3,7 +3,7 @@ import React from 'react'
 export default function BacorderSmall() {
   return (
     <>
-    <svg width="378" height="104" viewBox="0 0 378 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg className="bacoder__small" width="378" height="104"  patternUnits="objectBoundingBox" viewBox="0 0 378 104" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0 104V0H2.99932V104H0ZM4.49898 104V0H8.99795V104H4.49898ZM10.4976 104V0H11.9973V104H10.4976Z" fill="#191919"/>
 <path d="M16.5002 104V0H17.9998V104H16.5002ZM22.4988 104V0H28.4974V104H22.4988ZM29.9971 104V0H31.4967V104H29.9971Z" fill="#191919"/>
 <path d="M33.0003 104V0H35.9996V104H33.0003ZM37.4993 104V0H40.4986V104H37.4993ZM41.9983 104V0H47.9969V104H41.9983Z" fill="#191919"/>
