@@ -1,6 +1,8 @@
 import React from "react";
 import TypeIt from "typeit-react";
 import './Home.scss'
+import '../../componentes/Footer/Footer'
+import Footer from "../../componentes/Footer/Footer";
 
 
 export default function Home() {
@@ -25,6 +27,13 @@ export default function Home() {
                 />
             </div>
         </main>
+
+        <footer>
+
+        <Footer/>
+
+        </footer>
+
         </>
     );
 }

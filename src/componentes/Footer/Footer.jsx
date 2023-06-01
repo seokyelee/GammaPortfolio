@@ -18,7 +18,7 @@ export default function Footer() {
             torquent magna senectus praesent vehicula mauris feugiat.
           </p>
 
-          
+         
           <BacoderSmall className="bacoder_s"/>
   
 

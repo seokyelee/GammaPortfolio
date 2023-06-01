@@ -20,7 +20,7 @@ function App() {
 
       <main>
       <Routes >
-        <Route path="/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route path="/work" element={<Work />} />
         <Route path="/about" element={<About />} />
         <Route path="/thanks" element={<Thanks />} />
@@ -28,11 +28,32 @@ function App() {
     </main>
 
 
-  <Footer/>
 
     </>
   );
 }
 
+function Footer() {
+  const currentPath = window.location.pathname;
 
-export default App
+  if (currentPath === '/') {
+    return (
+      <footer>
+        <Footer/>
+      </footer>
+    );
+  } else {
+    return null;
+  }
+}
+
+export default App;
+
+
+
+
+
+
+
+
+

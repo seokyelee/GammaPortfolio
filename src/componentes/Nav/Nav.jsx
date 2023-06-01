@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Nav.scss";
+import "../../App"
 import "../../scss/global.scss";
 import IconMoon from "../../assets/Icons/IconMoon";
 import IconMail from "../../assets/Icons/IconMail";
@@ -14,7 +15,7 @@ export default function Nav() {
 			<section className="nav">
 				<ul className="nav__box__left">
 					<li className="nav__box__left__item">
-						<Link className="icono_mail" to="https://www.google.com/">
+					<Link className="icono_mail__page_thanks" to="/thanks">
 							<IconMail />
 						</Link>
 					</li>
