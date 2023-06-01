@@ -94,21 +94,13 @@ li {
 }
 
 @media all and (max-width: 1440px) {
-    .about_box{
-        flex-direction: column;
-    }
+    
    
  } 
 
  @media all and (max-width: 780px){
-    .about_box{
-    width: calc(100% - 10%);
-    flex-wrap: wrap;
-    }
-    .about__p{
-        font-size: fs(small);
-    }
-    .foto{
-        width: 7rem;
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
     }
  }

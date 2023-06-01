@@ -14,7 +14,12 @@
     justify-content: center;
     font-size: fs(regular);
     text-align: justify;
-    
+}
+
+.foto_box{
+    display: flex;
+    align-items: center;
+    padding-bottom: 6rem;
 }
 
 @media all and (max-width: 1440px) {
