@@ -1,6 +1,5 @@
 import React from "react";
 
-
 export default function About() {
   return (
     <div>
@@ -18,11 +17,10 @@ export default function About() {
         tincidunt justo conubia pellentesque sociis fames. Platea nulla risus
         nec mattis blandit tempus potenti lectus morbi donec montes tincidunt
         himenaeos dignissim praesent, bibendum cursus neque litora tortor vitae
-        et mi etiam netus auctor posuere eget nostra. 
+        et mi etiam netus auctor posuere eget nostra.
       </p>
-
       <div className="foto">
-  
+        <img src="../../../public/imgFoto/foto.png" alt="" />
       </div>
     </div>
   );
