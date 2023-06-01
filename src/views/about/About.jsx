@@ -1,4 +1,5 @@
 import React from "react";
+import './About.scss'
 
 export default function About() {
   return (
@@ -19,8 +20,8 @@ export default function About() {
         himenaeos dignissim praesent, bibendum cursus neque litora tortor vitae
         et mi etiam netus auctor posuere eget nostra.
       </p>
-      <div className="foto">
-        <img src="../../../public/imgFoto/foto.png" alt="" />
+      <div className="foto_box">
+        <img className="foto" src="/imgFoto/foto.png" alt="" />
       </div>
     </div>
   );

@@ -38,7 +38,7 @@ export default function Nav() {
 					</li>
 					<li className="nav__box__center__item">
 						<Link
-							className="icono_lnkedin"
+							className="icono_linkedin"
 							to="https://www.linkedin.com/in/seok-ye-lee-a8196941/"
 						>
 							<IconLinkedin />
@@ -59,7 +59,7 @@ export default function Nav() {
 					</div>
 					<div className="nav__box__right__item_about">
 						<Link className="page_about" to="/about">
-							My name is Seokye
+							My name is<br/> Seokye
 						</Link>
 					</div>
 			

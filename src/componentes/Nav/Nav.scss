@@ -3,6 +3,24 @@
 @import "../../scss/variable";
 @import "../../scss/function";
 
+.icon{
+    &__codepen, 
+    &__git,
+    &__mail{
+    width: 28px;
+    }
+
+    &__linkedin{
+        width: 26px;
+    }
+
+    &__moon{
+        width: 24px;
+        
+    }
+}
+
+
 .nav {
     margin: 3px;
     display: grid;
@@ -31,8 +49,11 @@
     &__item {
         list-style: none;
         padding: var(--pd_4);
+        display: flex;
+        align-items: center;
     }
 }
+
 
 .nav__box__right {
     
@@ -40,7 +61,7 @@
     &__item_work {
         display: grid;
         font-family: $primary-ff;
-        font-size: fs(small);
+        font-size: fs(x-small);
         border-right: 1px solid color(color-border);
         text-align: center;
         align-items: center;
@@ -51,7 +72,7 @@
     &__item_about {
         display: grid;
         font-family: $primary-ff;
-        font-size: fs(small);
+        font-size: fs(x-small);
         border-right: none;
         text-align: center;
         align-items: center;
@@ -71,3 +92,23 @@ li {
 .nav__item {
     list-style: none;
 }
+
+@media all and (max-width: 1440px) {
+    .about_box{
+        flex-direction: column;
+    }
+   
+ } 
+
+ @media all and (max-width: 780px){
+    .about_box{
+    width: calc(100% - 10%);
+    flex-wrap: wrap;
+    }
+    .about__p{
+        font-size: fs(small);
+    }
+    .foto{
+        width: 7rem;
+    }
+ }
