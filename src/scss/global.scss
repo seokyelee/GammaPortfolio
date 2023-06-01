@@ -7,6 +7,9 @@
 @import '../componentes/Nav/Nav.scss';
 
 
+*, :after, :before {
+    box-sizing: border-box;
+}
 
 html {
     box-sizing: border-box;
