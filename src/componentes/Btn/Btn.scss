@@ -3,25 +3,11 @@
 @import "../../scss/font-family";
 @import "../../scss/typography";
 
-
-.btn__container{
-    display: none;
-}
-
-.btn__box {
-    font-family: $primary-ff;
-    color: color(color-p);
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    margin-bottom: 40px;
-}
-
 .btn{
     margin-bottom: 20px;
 }
 
-.btn__box .btn__pri {
+.btn__pri {
     font-family: $primary-ff;
     background-color: color(color-bg);
     color: color(color-complementario);
@@ -30,30 +16,4 @@
     width: 180px;
     border: 1px solid color(color-complementario);
     box-shadow: 10px 5px 5px #B4B4B4;
-}
-
-.btn__box .btn__pri__disable {
-    font-family: $primary-ff;
-    background-color: color(color-disable);
-    color: color(color-bg);
-    padding: 12px 20px;
-    margin: 20px;
-    width: 180px;
-    border: 0.5px solid color(color-p);
-    box-shadow: 10px 5px 5px #B4B4B4;
-}
-
-.btn__box .btn__hover {
-    font-family: $primary-ff;
-    background-color: color(color-btn);
-    color: color(color-bg);
-    padding: 12px 20px;
-    margin: 20px;
-    width: 180px;
-    border: 1px solid color(color-complementario);
-    box-shadow: 10px 5px 10px #B4B4B4;
-}
-
-.active{   
-    display:flex;
 }

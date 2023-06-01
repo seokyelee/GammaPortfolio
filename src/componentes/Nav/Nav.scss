@@ -27,6 +27,7 @@
     grid-template-columns: 1fr 6fr 2fr 2fr 3fr;
     border: 1px solid color(color-border);
     grid-auto-rows: minmax(80px, auto);
+    box-shadow: 10px 5px 5px #ebebeb;
 }
 
 .nav__box__left {

@@ -1,7 +1,7 @@
 import React from "react";
 import TypeIt from "typeit-react";
-import './Home.scss'
-import '../../componentes/Footer/Footer'
+import './Home.scss';
+import '../../componentes/Footer/Footer';
 import Footer from "../../componentes/Footer/Footer";
 
 

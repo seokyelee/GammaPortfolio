@@ -8,7 +8,7 @@ import Work from "./views/work/Work";
 import About from "./views/about/About";
 import Thanks from "./views/thanks/Thanks";
 import Nav from "./componentes/Nav/Nav";
-import Footer from "./componentes/Footer/Footer";
+
 
 
 
@@ -20,32 +20,18 @@ function App() {
 
       <main>
       <Routes >
-        <Route exact path="/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/work" element={<Work />} />
         <Route path="/about" element={<About />} />
         <Route path="/thanks" element={<Thanks />} />
       </Routes>
     </main>
 
-
-
     </>
   );
 }
 
-function Footer() {
-  const currentPath = window.location.pathname;
 
-  if (currentPath === '/') {
-    return (
-      <footer>
-        <Footer/>
-      </footer>
-    );
-  } else {
-    return null;
-  }
-}
 
 export default App;
 
