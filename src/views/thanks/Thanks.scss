@@ -3,13 +3,12 @@
 
 .thanks-container{
     height: 100vh;
-    display: flex;
-    justify-content: center;
+   
 }
 
 .thanks__box {
     font-family: $primary-ff;
-    display: flex;
+    top:0;
     justify-content: center;
     align-items: flex-start;
 }
@@ -17,11 +16,14 @@
 .bacode__thanks {
     width: 100%;
     margin:0;
-    display: flex;
+    position: relative;
+    margin-bottom: 4rem;
 }
 .bacoder_last{
     width: 100%;
+    margin-bottom: 4rem;
 }
+
 .be__root span {
     color: color(color-btn);
 }
