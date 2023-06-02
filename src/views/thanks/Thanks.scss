@@ -3,7 +3,7 @@
 
 .thanks-container{
     height: 100vh;
-   
+    display: block;
 }
 
 .thanks__box {
@@ -19,11 +19,14 @@
     position: relative;
     margin-bottom: 4rem;
 }
-.bacoder_last{
+.bacoder_big{
     width: 100%;
     margin-bottom: 4rem;
 }
 
 .be__root span {
     color: color(color-btn);
+}
+.fa-duotone .fa-seedling{
+    color:aqua;
 }

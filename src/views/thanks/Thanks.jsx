@@ -1,15 +1,19 @@
 import React from "react";
 import "./Thanks.scss";
-import BacoderLast from "../../assets/img/BacoderLast";
+import BacoderBig from "../../assets/img/BacoderBig";
 import Btn from '../../componentes/Btn/Btn';
 
 
+
+
+
 export default function Thanks() {
+  
   return (
     <>
     <main className="thanks-container">
       <div className="bacode__thanks">
-        <BacoderLast className="bacoder_last"/>
+        <BacoderBig className="bacoder_big"/>
       </div>
       <section className="thanks__box">
         <h2 className="thank">Thank you for your time.</h2>
@@ -18,6 +22,7 @@ export default function Thanks() {
         </h3>
 
         <Btn/>
+
 
       </section>
       </main>

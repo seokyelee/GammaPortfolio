@@ -1,6 +1,12 @@
 @import '../../scss/typography';
 
+.about_main{
+    height: auto;
+    flex-direction: column;
+    gap:50px
+}
 .about_box{
+    height: 80vh;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -9,9 +15,11 @@
 }
 
 .about__p{
-    padding: 12px;
+    padding: 0 12px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: fs(regular);
     text-align: justify;
 }
