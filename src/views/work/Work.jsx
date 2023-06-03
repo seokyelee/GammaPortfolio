@@ -1,14 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Card from '../../componentes/Card/Card';
-//import '../../componentes/Card/cardDatas.js';
 
 
-export default function Work() {
+  function Work() {
+    let [data, setData] = useState([]);
+    // let data = [];
+    // useEffect, useState
+    useEffect(() => {
+        fetch('/proyects.json')
+            .then(res => res.json())
+            .then(info => {
+                setData(info);
+            });
+    }, [])
 
   return <>
-    <Card title="Proyect 1" description="kmfdjofg"  linkto=""/>
-    <Card title="Proyect 2" description="gggerererf"linkto=""/>
-    <Card title="Proyect 3" description="ffeghhyhj" linkto=""/>
+  <div> 
+    {data.map(item => <Card key={item.title} title={item.title} description={item.description} iconprogram={item.iconprogram[0]} linkto={item.linkto} />)}
+    </div>
   </>
 }
 
+
+export default Work;

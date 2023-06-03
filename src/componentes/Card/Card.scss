@@ -1,15 +1,16 @@
 @import "../../scss/variable";
+@import "../../scss/global";
 @import "../../scss/font-family";
 
 
 .proyect_box {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin:0 auto;
     align-items: center;
     gap: var(--spacing, 16px);
     padding: var(--spacing);
-    border: 1px solid rgb(1, 243, 211);
+    border: 1px solid color(color-btn);
     width: 100%;
     margin-bottom: 12px;
     padding: 20px;
@@ -17,6 +18,13 @@
 }
 
 .proyect_title {
-    color: var(--contact-text, rgb(0, 184, 138));
+    color: color(color-p);
     margin: 0;
+}
+.proyect_description_box{
+    display: block;
+}
+
+.proyect_linkto{
+    padding-right: 20px;
 }
