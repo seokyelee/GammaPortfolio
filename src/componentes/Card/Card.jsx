@@ -1,13 +1,22 @@
-import React from 'react';
-import '../../componentes/Card/cardDatas';
+import React from 'react'
+import './Card.scss'
 
-export default function Card(props) {
+
+function Card(props) {
+
+
   return (
-    <artical>
-
-      <img src={props.imge} alt="" />
-      <p>{props.text}</p>
-
-    </artical>
+    <>
+    <div className='proyect_box'>      
+    <div className='proyect_title'>{props.title}</div>
+      <p>{props.description}</p>
+      
+      <a href={"props.linkto"}>Demo</a>
+    </div>
+    </>
   )
-}
+} 
+
+export default Card;
+
+

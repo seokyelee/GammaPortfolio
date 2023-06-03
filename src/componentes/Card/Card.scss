@@ -1,7 +1,22 @@
-article {
-    max-width: 320px;
+@import "../../scss/variable";
+@import "../../scss/font-family";
+
+
+.proyect_box {
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+    align-items: center;
+    gap: var(--spacing, 16px);
+    padding: var(--spacing);
+    border: 1px solid rgb(1, 243, 211);
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 20px;
+    width: 80vw;
 }
 
-img {
-    max-width: 100%;
+.proyect_title {
+    color: var(--contact-text, rgb(0, 184, 138));
+    margin: 0;
 }
