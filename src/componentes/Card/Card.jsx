@@ -3,13 +3,12 @@ import './Card.scss'
 
 
 function Card(props) {
-
-
+ 
   return (
     <>
     <div className='proyect_box'>      
-    <h2 className='proyect_title'>{props.title}</h2>
-   
+    <h2 className='ptoyect_titulo'>{props.title}</h2>
+
     <div className='proyect_description_box'>
     <p className='proyect_descrpition'>{props.description}</p>
       <p className='proyect_icons'>{props.iconprogram}</p>
@@ -17,6 +16,7 @@ function Card(props) {
       <a className='proyect_linkto' href={props.linkto}>Demo</a>
       <a className='proyect_linkto_git' href={props.linktogit}>GitHub</a>
     </div>
+
     </div>
     </div>
     

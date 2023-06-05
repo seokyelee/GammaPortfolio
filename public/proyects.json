@@ -9,14 +9,14 @@
     {
         "title": "Hamburguesa saludable Lluna",
         "description": "Lorem impsum de bla bla bla de algo de mi",
-        "iconprogram": ["1","5","2","3"],
+        "iconprogram": ["15","5","2","3"],
         "linkto": "https://esatdev.com/2022/seokye/lluna/",
         "linktogit": "https://github.com/seokyelee/Project-Beta-Lluna.git"
     },
     {
         "title": "Portafolio",
         "description": "Lorem impsum de bla bla bla de algo de mi",
-        "iconprogram": ["1","1","2","3"],
+        "iconprogram": ["7","1","6","3"],
         "linkto": "hppts://www.google.com",
         "linktogit": "https://github.com/seokyelee/Proyect-Alpha_AboutMe.git"
     }
