@@ -23,7 +23,9 @@ footer{
 }
 
 .bacoder__small{
-    margin: 0 auto;
-    
+    margin: 0 auto;   
 }
 
+.bacoder__small :hover{
+    fill: color(color-btn);
+}

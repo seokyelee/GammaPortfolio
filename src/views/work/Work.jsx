@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../../componentes/Card/Card';
-
+import './Work.scss'
 
   function Work() {
     let [data, setData] = useState([]);

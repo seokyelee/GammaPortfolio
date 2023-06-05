@@ -3,6 +3,7 @@
 @import "../../scss/variable";
 @import "../../scss/function";
 
+
 .icon{
     &__codepen, 
     &__git,
@@ -47,11 +48,13 @@
     flex-direction: row;
     border-right: 1px solid color(color-border);
 
+
     &__item {
         list-style: none;
         padding: var(--pd_4);
         display: flex;
         align-items: center;
+        
     }
 }
 
@@ -80,6 +83,15 @@
         padding: var(--pd_4);
         color:color(color-btn);
     }
+
+}
+
+link, a {
+    text-decoration-color: none;
+   }
+   
+.nav__box__right__item_about .page_about{
+    color:color(color-btn);
 }
 
 a:-webkit-any-link {
@@ -96,5 +108,4 @@ li {
 
 @media all and (max-width: 1440px) {
     
-   
  } 

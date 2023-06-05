@@ -1,4 +1,5 @@
 import React from 'react'
+import "../../componentes/Footer/Footer.scss"
 
 export default function BacorderSmall() {
   return (
