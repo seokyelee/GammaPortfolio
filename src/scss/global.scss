@@ -61,6 +61,10 @@ ul {
 
 
  a {
+    color: color(color-p);
+    font-family: $primary-ff;
+    text-decoration-color: none;
+    font-size: fs(x-small);
     padding: 10px 20px;
     position: relative;
     overflow: hidden;
@@ -135,7 +139,8 @@ ul {
   }
   
    a:hover {
-    color: #00ECE1;
+    color: black;
+    font-weight: bold;
 
   }
   
@@ -163,3 +168,7 @@ ul {
     bottom: 5px;
   }
 
+  *::selection {
+    background-color: #4e18a5;
+    color: #c2fff5;
+}

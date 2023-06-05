@@ -15,7 +15,7 @@ function Card(props) {
       <p className='proyect_icons'>{props.iconprogram}</p>
       <div className='proyect_links'>
       <a className='proyect_linkto' href={props.linkto}>Demo</a>
-      <a className='proyect_linkto' href={props.linkto}>GitHub</a>
+      <a className='proyect_linkto_git' href={props.linktogit}>GitHub</a>
     </div>
     </div>
     </div>

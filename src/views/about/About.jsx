@@ -1,6 +1,7 @@
 import React from "react";
 import './About.scss'
 import Thanks from "../thanks/Thanks";
+import Work from "../work/Work";
 
 export default function About() {
   return (
@@ -23,11 +24,11 @@ export default function About() {
           himenaeos dignissim praesent, bibendum cursus neque litora tortor vitae
           et mi etiam netus auctor posuere eget nostra.
         </p>
-        <div className="foto_box">
-          <img className="foto" src="/imgFoto/foto.png" alt="" />
-        </div>
-      </section>
         
+      </section>
+      <section>
+        <Work/>
+      </section>
       <section>
         <Thanks/>
       </section>

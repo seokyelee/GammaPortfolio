@@ -20,7 +20,7 @@ export default function Home() {
                             .delete(15).pause(1200)
                             .type("but above all").pause(2200)
                             .delete(13).pause(2000)
-                            .type("a Good") .pause(1000).type(" Person")
+                            .type("a Good") .pause(1000).type(" Person...")
                         // Remember to return it!
                         return instance;
                     }}

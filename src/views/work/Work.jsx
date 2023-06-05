@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../../componentes/Card/Card';
 import './Work.scss'
+import About from '../about/About';
+import Thanks from '../thanks/Thanks';
 
   function Work() {
     let [data, setData] = useState([]);
@@ -16,10 +18,12 @@ import './Work.scss'
 
   return <>
   <div> 
-    {data.map(item => <Card key={item.title} title={item.title} description={item.description} iconprogram={item.iconprogram[0]} linkto={item.linkto} />)}
-    </div>
+    {data.map(item => 
+    <Card key={item.title} title={item.title} 
+    description={item.description}
+     iconprogram={item.iconprogram[0]} linkto={item.linkto} linktogit={item.linktogit} />)}
+  </div>
   </>
 }
-
 
 export default Work;

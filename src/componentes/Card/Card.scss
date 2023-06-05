@@ -1,7 +1,7 @@
 @import "../../scss/variable";
 @import "../../scss/global";
 @import "../../scss/font-family";
-
+@import "../../scss/function";
 
 .proyect_box {
     display: flex;
@@ -29,6 +29,7 @@
     padding-right: 20px;
 }
 
-a {
+a .proyect_linkto {
     text-decoration-color: none;
+    font-size: fs(x-small);
 }
