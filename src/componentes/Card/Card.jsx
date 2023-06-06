@@ -13,24 +13,20 @@ function Card(props) {
   }
 
   return (
-    <section className="proyect_box">
-
+    <section className="proyect_box" onClick={changeClass}>
       <div className="proyect_box_title">
-        <h2
-          id="title_usestate"
-          onClick={changeClass}
-          className="ptoyect_titulo"
-        >
+        <h2 id="title_usestate" className="ptoyect_titulo">
           {props.title}
           <span className="tooltiptext">{props.tooltip}</span>
         </h2>
-        </div>
+      </div>
 
       <div className={"proyect_usestate" + classText}>
-          <div className="proyect_description_box">
-            <p className="proyect_descrpition">{props.description}</p>
-          </div>
-            <p className="proyect_icons">{props.iconprogram}</p>
+        <div className="proyect_description_box">
+          <p className="proyect_descrpition">{props.description}</p>
+          <p className="proyect_icons">{props.iconprogram}</p>
+        </div>
+       
       </div>
 
       <div className="proyect_links">
@@ -41,9 +37,7 @@ function Card(props) {
           GitHub
         </a>
       </div>
-
     </section>
-
   );
 }
 

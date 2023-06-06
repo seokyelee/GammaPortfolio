@@ -4,23 +4,22 @@
 @import "../../scss/function";
 
 
-.icon{
-    &__codepen, 
+.icon {
+
+    &__codepen,
     &__git,
-    &__mail{
-    width: 28px;
+    &__mail {
+        width: 28px;
     }
 
-    &__linkedin{
+    &__linkedin {
         width: 26px;
     }
 
-    &__moon{
+    &__moon {
         width: 24px;
-        
     }
 }
-
 
 .nav {
     margin: 3px;
@@ -34,7 +33,7 @@
 .nav__box__left {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
+
     &__item {
         border-right: 1px solid color(color-border);
         list-style: none;
@@ -54,13 +53,13 @@
         padding: var(--pd_4);
         display: flex;
         align-items: center;
-        
+
     }
 }
 
 
 .nav__box__right {
-    
+
     &__item_home,
     &__item_work {
         display: grid;
@@ -70,7 +69,7 @@
         text-align: center;
         align-items: center;
         padding: var(--pd_4);
-        color:color(color-p);
+        color: color(color-p);
     }
 
     &__item_about {
@@ -81,17 +80,18 @@
         text-align: center;
         align-items: center;
         padding: var(--pd_4);
-        color:color(color-btn);
+        color: color(color-btn);
     }
 
 }
 
-link, a {
+link,
+a {
     text-decoration-color: none;
-   }
-   
-.nav__box__right__item_about .page_about{
-    color:color(color-btn);
+}
+
+.nav__box__right__item_about .page_about {
+    color: color(color-btn);
 }
 
 a:-webkit-any-link {
@@ -106,8 +106,22 @@ li {
     list-style: none;
 }
 
-@media all and (max-width: 1440px) {
-    
- } 
+@media all and (max-width: 1440px) {}
 
 
+.nav__box__left__item:hover {
+    background-color: rgb(232, 255, 247);
+}
+
+
+.nav__box__right__item_home:hover {
+    background-color: rgb(235, 255, 248);
+}
+
+.nav__box__right__item_work:hover {
+    background-color: rgb(242, 255, 254);
+}
+
+.nav__box__right__item_about:hover {
+    background-color: rgb(253, 240, 255);
+}
