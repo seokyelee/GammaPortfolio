@@ -10,24 +10,34 @@
     align-items: center;
     gap: var(--spacing, 16px);
     padding: var(--spacing);
-    border: 1px solid color(color-btn);
     width: 100%;
     margin-bottom: 12px;
     margin-top:20px;
     padding: 20px;
     width: 80vw;
+    box-shadow: 8px 5px 5px #e4f5f4;
 }
 
 .proyect_box:hover{
-    background-color: rgb(248, 253, 237);
+    background-color: rgb(253, 240, 255);
+}
+.proyect_box_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
 }
 
-.proyect_title {
+#title_usestate {
     color: color(color-complementario);
-    margin: 0;
 }
+
+    
 .proyect_description_box{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: right;
 }
 
 .proyect_linkto{
@@ -45,3 +55,57 @@ a .proyect_linkto {
     font-size: fs(x-small);
 }
 
+/* Tooltip container */
+#title_usestate {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Tooltip text */
+  #title_usestate .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    font-family: monospace;
+    font-size: small;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+  
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+  
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .proyect_usestate{
+    display: none;
+  }
+  /* Tooltip arrow */
+  #title_usestate .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  #title_usestate:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .active{
+    display:flex;
+    
+  }

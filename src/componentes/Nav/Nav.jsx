@@ -60,7 +60,7 @@ export default function Nav() {
 					</div>
 					<div className="nav__box__right__item_about">
 						<Link className="page_about" to="/about">
-							My name is<br/> Seokye
+							Hi! My name is<br/> Seokye.L
 						</Link>
 					</div>
 			
