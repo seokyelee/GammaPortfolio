@@ -5,13 +5,15 @@
 
 footer{
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .footer__box{
     margin: 4px;
     padding: 12px;
-    display: grid;
-    grid-template-columns: 7fr 3fr;
+    display: flex;
+    flex-wrap: wrap;
     gap: 42px;
     border: 1px solid color(color-border);
     align-items: center;

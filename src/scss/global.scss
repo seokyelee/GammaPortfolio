@@ -6,7 +6,6 @@
 @import '../componentes/Btn/Btn.scss';
 @import '../componentes/Nav/Nav.scss';
 
-
 *, :after, :before {
     box-sizing: border-box;
 }
@@ -64,3 +63,10 @@ ul {
     color: #f0a2e9;
 }
 
+@media all and (max-width: 780px) {
+  
+    .typeit_container{
+        font-size: 64px;
+    }  
+  
+}

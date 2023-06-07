@@ -31,19 +31,6 @@ export default function Work() {
         ))}
       </div>
 
-      <aside className="return_box">
-        <div className="return_home">
-          <Link className="page_home" to="/">
-            Home
-          </Link>
-        </div>
-        <div className="return_mail">
-          <Link className="icono_mail__page_thanks" to="/thanks">
-            <IconMail />
-          </Link>
-        </div>
-       
-      </aside>
     </>
   );
 }

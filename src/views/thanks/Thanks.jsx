@@ -12,11 +12,8 @@ export default function Thanks() {
   return (
     <>
     <main className="thanks-container">
-      <div className="bacode__thanks">
-        <BacoderBig className="bacoder_big"/>
-      </div>
       <section className="thanks__box">
-        <h2 className="thank">Thank you for your time.</h2>
+        <h2 className="thank">I walk half a step every day but without stopping.</h2>
         <h3 className="be__root">
           Be the place where I will put my <span>roots.</span>
         </h3>

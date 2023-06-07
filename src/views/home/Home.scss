@@ -16,11 +16,13 @@
     margin:0 auto;
     font-family: $title-ff;
     font-size:fs(max);
-    display: block;
     justify-content: center;
     text-align: left;
-    width: 900px;
+    width: 90%;
     min-width: 320px;
     color:black;
     caret-color: color(color-btn);
     }
+
+    @media all and (max-width: 1440px) {}
+    
