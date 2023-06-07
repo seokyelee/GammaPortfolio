@@ -32,7 +32,7 @@ export default function Nav() {
 				</div>
 				<div className="nav__item__git_4">
 					<Link className="icono_git" to="https://github.com/seokyelee">
-						<IconGit />
+						<IconGit className="zoom"/>
 					</Link>
 				</div>
 				<div className="nav__item__linkedin_5">
@@ -40,12 +40,12 @@ export default function Nav() {
 						className="icono_linkedin"
 						to="https://www.linkedin.com/in/seok-ye-lee-a8196941/"
 					>
-						<IconLinkedin />
+						<IconLinkedin  />
 					</Link>
 				</div>
 
 				<div className="nav__item__home_6">
-					<Link className="page_home" to="/">
+					<Link  className="page_home" to="/">
 						Home
 					</Link>
 				</div>
@@ -55,7 +55,7 @@ export default function Nav() {
 					</Link>
 				</div>
 				<div className="nav__item__about_8">
-					<Link className="page_about" to="/about">
+					<Link  className="page_about" to="/about">
 						 I'm Seokye.L
 					</Link>
 				</div>

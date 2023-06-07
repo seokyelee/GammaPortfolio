@@ -80,7 +80,7 @@
     z-index: 1;
     bottom: 125%;
     left: 50%;
-    margin-left: 70px;
+    margin-left: 30px;
 
     /* Fade in tooltip */
     opacity: 0;
@@ -121,7 +121,11 @@
 a {
     color: color(color-p);
     font-family: $primary-ff;
-    text-decoration-color: none;
+    text-decoration: none;
     font-size: fs(x-small);
 }
 
+a:hover{
+    text-decoration:underline;
+    font-weight: bolder;
+}

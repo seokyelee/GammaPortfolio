@@ -2,26 +2,19 @@
 @import '../../componentes/Btn/Btn';
 
 .thanks-container{
+    display: flex;
+    flex-wrap: wrap;
     height: 100vh;
-    display: block;
+    margin-bottom: 120px;
 }
 
 .thanks__box {
+    margin-top: 120px;
     font-family: $primary-ff;
     top:0;
+   
     justify-content: center;
     align-items: flex-start;
-}
-
-.bacode__thanks {
-    width: 100%;
-    margin:0;
-    position: relative;
-    margin-bottom: 4rem;
-}
-.bacoder_big{
-    width: 100%;
-    margin-bottom: 4rem;
 }
 
 .be__root span {
@@ -29,4 +22,7 @@
 }
 .fa-duotone .fa-seedling{
     color:aqua;
+}
+.arbol{
+    margin-top: 120px;
 }

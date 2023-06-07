@@ -19,17 +19,20 @@ export default function Work() {
       <div className="card_div">
         {data.map((item) => (
           <Card
-            key={item.index}
+            key={item.id}
             title={item.title}
             tooltip={item.tooltip}
-            fecha={item.fecha}
+            date={item.date}
             description={item.description}
             linkto={item.linkto}
             linktogit={item.linktogit}
           />
         ))}
       </div>
-
+      <div className="link_seemore">
+      <p> Do you want to know what I did in another sector?</p>
+     <a className="link_more" href="https://www.linkedin.com/in/seok-ye-lee-a8196941/" alt="Linkedin">[Clik here]</a>
+     </div>
     </>
   );
 }

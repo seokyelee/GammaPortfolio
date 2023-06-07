@@ -1,11 +1,12 @@
+@import '../../scss/function';
 @import '../../scss/typography';
+@import '../../scss/font-family';
+@import '../../scss/variable';
+@import '../../scss/global';
 
-.about_main{
-    height: auto;
-    flex-direction: column;
-    gap:50px
-}
 .about_box{
+    height: auto;
+    display: flex;
     padding-top:120px;
     margin: 0 auto;
     width: calc(100% - 40%);
@@ -15,16 +16,32 @@
 .about__p{
     padding: 0 12px;
     display: flex;
+    line-height: 1.13em;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size:$primary-ff ;
     font-size: fs(regular);
-    text-align: justify;
+    text-align: left;
+    text-indent:10%;
 }
-
-.foto_box{
-    display: flex;
-    align-items: center;
-    padding-bottom: 6rem;
+.about__p h1{
+    line-height: 1em;
+    text-indent:0%;
+}
+.half_step{
+    font-weight: lighter;
+    font-size: fs(regular);
+    color:color(color-btn);
+    padding-top: 20px;
+    padding-bottom: 120px;
+}
+sup{
+    color:color(color-btn);
+    font-weight: lighter;
+}
+em{
+    color:darkslategray;
 }
 
 @media all and (max-width: 1440px) {
