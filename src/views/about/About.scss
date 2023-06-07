@@ -7,7 +7,7 @@
 .about_box{
     height: auto;
     display: flex;
-    padding-top:120px;
+    padding-top: 70px;
     margin: 0 auto;
     width: calc(100% - 40%);
     gap:42px;
@@ -23,11 +23,18 @@
     font-size:$primary-ff ;
     font-size: fs(regular);
     text-align: left;
-    text-indent:10%;
+    text-indent:15%;
 }
 .about__p h1{
     line-height: 1em;
     text-indent:0%;
+}
+.about__p_plus{
+    text-indent:5%;
+    text-align: left;
+}
+h4{
+    padding-top:24px;
 }
 .half_step{
     font-weight: lighter;

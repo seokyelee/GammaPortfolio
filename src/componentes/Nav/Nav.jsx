@@ -9,6 +9,8 @@ import IconCodepen from "../../assets/Icons/IconCodepen";
 import IconGit from "../../assets/Icons/IconGit";
 import IconLinkedin from "../../assets/Icons/IconLinkedin";
 
+
+
 export default function Nav() {
 	return (
 		<>
@@ -59,7 +61,9 @@ export default function Nav() {
 						 I'm Seokye.L
 					</Link>
 				</div>
+				
 			</section>
+			
 		</>
 	);
 }

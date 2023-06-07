@@ -1,4 +1,4 @@
-import React from "react";
+import  React, { useState }from "react";
 import { Route, Routes } from "react-router-dom";
 import './App.css';
 import './scss/global.scss';
@@ -12,11 +12,23 @@ import Nav from "./componentes/Nav/Nav";
 
 
 
+
+export const LanguageContext = React.createContext({Language: undefined });
+
 function App() {
+
+  const [selectLanguage, setSelectLanguage] = useState('es');
 
   return (
     <>
-      <Nav />
+     <Nav/>
+
+      <LanguageContext.Provider value={{ language: selectLanguage }}>
+      <div>
+        <button onClick={() => setSelectLanguage('en')}> Engsigh</button>
+        <button onClick={() => setSelectLanguage('es')}> Spanish</button>
+    </div>
+
 
       <main>
       <Routes >
@@ -26,7 +38,7 @@ function App() {
         <Route path="/thanks" element={<Thanks />} />
       </Routes>
     </main>
-
+    </LanguageContext.Provider>
     </>
   );
 }
