@@ -27,31 +27,34 @@
     text-align: left;
 }
 
+
 #title_usestate {
     color: color(color-complementario);
 }
 
-.proyect_description_box {
+.proyect_description_box,
+.proyect_links {
     display: flex;
-    flex-direction: column;
     justify-content: flex-end;
     text-align: right;
 }
 
-.proyect_linkto {
-    padding-right: 20px;
+.proyect_linkto{
     color: color(color-btn);
-    font-weight: bolder;
+    font-weight:lighter;
+    font-size: fs(regular);
 }
 
-.proyect_linkto_git {
+.proyect_linkto_git{
+    padding-left: 20px;
     color: color(color-complementario);
-    font-weight: bolder;
+    font-weight:lighter;
+    font-size: fs(regular);
 }
 
-a .proyect_linkto {
-    text-decoration-color: none;
-    font-size: fs(x-small);
+.proyect_linkto_git :hover {
+    color: color(color-btn);
+    font-weight: bold;
 }
 
 /* Tooltip container */
@@ -63,9 +66,9 @@ a .proyect_linkto {
 /* Tooltip text */
 #title_usestate .tooltiptext {
     visibility: hidden;
-    width: 140px;
+    width: 150px;
     font-family: monospace;
-    font-size: small;
+    font-size: fs(regular);
     background-color: #002fff;
     color: #e2e7fd;
     text-align: center;
@@ -77,7 +80,7 @@ a .proyect_linkto {
     z-index: 1;
     bottom: 125%;
     left: 50%;
-    margin-left: -60px;
+    margin-left: 70px;
 
     /* Fade in tooltip */
     opacity: 0;
@@ -122,7 +125,3 @@ a {
     font-size: fs(x-small);
 }
 
-a:hover {
-    color: black;
-    font-weight: bold;
-}

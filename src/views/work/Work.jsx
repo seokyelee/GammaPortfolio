@@ -22,6 +22,7 @@ export default function Work() {
             key={item.index}
             title={item.title}
             tooltip={item.tooltip}
+            fecha={item.fecha}
             description={item.description}
             linkto={item.linkto}
             linktogit={item.linktogit}

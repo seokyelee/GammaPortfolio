@@ -19,6 +19,7 @@ function Card(props) {
           {props.title}
           <span className="tooltiptext">{props.tooltip}</span>
         </h2>
+        <p className="preyect_fecha">{props.fecha}</p>
       </div>
 
       <div className={"proyect_usestate" + classText}>

@@ -2,6 +2,7 @@
     {
         "title": "Proyect Gamma",
         "tooltip":"Portfolio ",
+        "fecha":"Junio 2023",
         "description": "[React]  [SASS]  [JSON]  [UIUX:'Figma']",
         "linkto": "hppts://www.google.com",
         "linktogit": "https://github.com/seokyelee/Proyect-Alpha_AboutMe.git"
@@ -10,6 +11,7 @@
     {
         "title": "Proyect Alpha",
         "tooltip": "First my webpage ",
+        "fecha":"Diiembre 2022",
         "description": "[HTML]  [CSS]  [UIUX:'Figma']",
         "linkto": "https://whimsical-salmiakki-f9bf8c.netlify.app",
         "linktogit": "https://github.com/seokyelee/Proyect-Alpha_AboutMe.git"
@@ -17,6 +19,7 @@
     {
         "title": "Proyect Beta",
         "tooltip": "Hamburguesa saludable Lluna",
+        "fecha":"Abril 2023",
         "description": "[WordPress]  [PHP]  [SASS]  [UIUX:'Figma']  [woocommerce]  [Digital Marketing]",
         "linkto": "https://esatdev.com/2022/seokye/lluna/",
         "linktogit": "https://github.com/seokyelee/Project-Beta-Lluna.git"
