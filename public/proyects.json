@@ -2,8 +2,7 @@
     {
         "title": "Proyect Gamma",
         "tooltip":"Portfolio ",
-        "description": "Lorem impsum de bla bla bla de algo de mi",
-        "iconprogram": ["7","1","6","3"],
+        "description": "[React]  [SASS]  [JSON]  [UIUX:'Figma']",
         "linkto": "hppts://www.google.com",
         "linktogit": "https://github.com/seokyelee/Proyect-Alpha_AboutMe.git"
     },
@@ -11,16 +10,14 @@
     {
         "title": "Proyect Alpha",
         "tooltip": "First my webpage ",
-        "description": "Lorem impsum de bla bla bla de algo de mi",
-        "iconprogram": ["1","1","2","3"],
+        "description": "[HTML]  [CSS]  [UIUX:'Figma']",
         "linkto": "https://whimsical-salmiakki-f9bf8c.netlify.app",
         "linktogit": "https://github.com/seokyelee/Proyect-Alpha_AboutMe.git"
     },
     {
         "title": "Proyect Beta",
         "tooltip": "Hamburguesa saludable Lluna",
-        "description": " WordPress HHP SCSS JSON Figma UIUX Digital Marketing",
-        "iconprogram": ["15","5","2","3"],
+        "description": "[WordPress]  [PHP]  [SASS]  [UIUX:'Figma']  [woocommerce]  [Digital Marketing]",
         "linkto": "https://esatdev.com/2022/seokye/lluna/",
         "linktogit": "https://github.com/seokyelee/Project-Beta-Lluna.git"
     }

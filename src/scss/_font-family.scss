@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'CabinetGrotesk';
-    font-weight:700;
-    src: url(/assets/font/CabinetGrotesk-Bold.woff2);
-    src: url(/assets/font/CabinetGrotesk-Extrabold.otf);
-    src: url(/assets/font/CabinetGrotesk-Black.otf);
+    src: local('CabinetGrotesk-Bold') url(/assets/font/CabinetGrotesk-Bold.woff2) format('woff');
+    src: local('CabinetGrotesk-Extrabold') url(/assets/font/CabinetGrotesk-Extrabold.otf) format('otf');
+    src: local('CabinetGrotesk-Black')url(/assets/font/CabinetGrotesk-Black.otf) format('otf');
 }
+
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');

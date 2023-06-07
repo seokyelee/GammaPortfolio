@@ -14,7 +14,7 @@ export default function Nav() {
 		<>
 			<section className="nav__container">
 				<div className="nav__item__mail_1">
-					<Link className="icono_mail__page_thanks" to="/thanks">
+					<Link  className="icono_mail__page_thanks" to="/thanks">
 						<IconMail />
 					</Link>
 				</div>
@@ -56,7 +56,7 @@ export default function Nav() {
 				</div>
 				<div className="nav__item__about_8">
 					<Link className="page_about" to="/about">
-						Hi! I'm <br /> Seokye.L
+						 I'm Seokye.L
 					</Link>
 				</div>
 			</section>

@@ -32,8 +32,7 @@
     box-shadow: 10px 5px 5px #ebebeb;
     border: 1px solid color(color-border);
     font-family: $primary-ff;
-    font-size: fs(x-small);
-    align-items: normal;
+    font-size: fs(x-small); 
     position: fixed;
     z-index: 1;
 }
@@ -43,21 +42,20 @@
 .nav__item__linkedin_5,
 .nav__item__home_6,
 .nav__item__work_7 {
-    padding: 20px;
+    padding-top:25px;
+    padding-bottom: 12px;
     border-right: 1px solid color(color-border);
-    align-items: center;
     text-align: center;
 }
-section .nav__item__work_7{
-    align-items: center;
+.page_work{
+    padding-top:8px;
 }
 .nav__item__codepen_3,
 .nav__item__git_4,
 .nav__item__about_8 {
-    padding: 20px;
-    align-items: center;
+    padding-top:25px;
+    padding-bottom: 12px;
     text-align: center;
-
 }
 
 

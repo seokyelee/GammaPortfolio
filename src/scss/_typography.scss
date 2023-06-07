@@ -4,8 +4,9 @@
 
 
 
-.title, .font__box .exemple_title{
-    margin:24px 0px;
+.title,
+.font__box .exemple_title {
+    margin: 24px 0px;
     font-family: $title-ff;
     font-weight: 700;
     font-size: fs(x-big);
@@ -15,34 +16,37 @@
 p {
     font-family: $primary-ff;
     font-size: fs(small);
-    color: color(color-p); 
+    color: color(color-p);
 }
 
 h1 {
-    margin:12px 0px;;
+    margin: 12px 0px;
     font-family: $title-ff;
     font-size: fs(big);
-    color: color(color-p); 
+    color: color(color-p);
     font-weight: 700;
 }
 
-h2, h3{
-    margin:8px 0px;
+h2,
+h3 {
+    margin: 8px 0px;
     font-family: $primary-ff;
     font-size: fs(regular);
-    color: color(color-p); 
+    color: color(color-p);
 }
 
 h3 {
     margin: 8px 0px;
     font-family: $primary-ff;
     font-size: fs(regular);
-    color: color(color-p); 
+    color: color(color-p);
 }
 
-h4, h5, h6 {
+h4,
+h5,
+h6 {
     margin: 8px 0px;
-    font-family:$primary-ff;
+    font-family: $primary-ff;
     font-size: fs(small);
-    color: color(color-p); 
+    color: color(color-p);
 }
