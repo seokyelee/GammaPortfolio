@@ -17,6 +17,7 @@ export default function Work() {
 
   return (
     <>
+    <main className="work_page">
     <h1 className="proyject_page_title">Proyects</h1>
 
       <div className="card_div">
@@ -44,6 +45,7 @@ export default function Work() {
      </div>
 
      <Thanks/>
+     </main>
     </>
   );
 }

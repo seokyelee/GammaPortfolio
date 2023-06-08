@@ -18,7 +18,9 @@ export default function WorkDetail() {
       <>
     <h1 className="proyect_h1">{data?.title}</h1>
  <section className="proyect_detail_box">
+    <div>
     <p className="proyect_content">{data?.content}</p>
+    </div>
       <div className="proyect_links">
           <a className="proyect_linkto" href={data?.linkto}>
             Demo

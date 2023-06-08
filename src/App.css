@@ -1,5 +1,20 @@
-button {
-    margin-top:80px;
+
+
+.language_btn_en{
+    margin-top:130px;
 }
 
+.language_btn{
+    margin-top:15px;
+}
+.language_btn_en, .language_btn{
+    transform: rotate(-90deg);
+    display: flex;
+    flex-direction: column;
+    border-style: none;
+    background-color: white;
+    box-shadow: none;
+    color: #8A4ADD;
+    cursor: pointer;
+}
 

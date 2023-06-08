@@ -46,30 +46,10 @@
 .preyect_date{
     margin-top:0;
 }
-.proyect_description_box,
-.proyect_links {
-    display: flex;
-    justify-content: flex-end;
+.proyect_description_box{
     text-align: right;
 }
 
-.proyect_linkto{
-    color: color(color-btn);
-    font-weight:lighter;
-    font-size: fs(regular);
-}
-
-.proyect_linkto_git{
-    padding-left: 20px;
-    color: color(color-complementario);
-    font-weight:lighter;
-    font-size: fs(regular);
-}
-
-.proyect_linkto_git :hover {
-    color: color(color-btn);
-    font-weight: bold;
-}
 
 /* Tooltip container */
 #title_usestate {

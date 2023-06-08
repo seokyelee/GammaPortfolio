@@ -8,6 +8,7 @@
 }
 
 .proyect_detail_box {
+    width: 100vw;
     display: flex;
     margin: auto 0;
     flex-direction: column;
@@ -15,12 +16,34 @@
 }
 
 .proyect_content {
-    display: flex;
-    justify-content: flex-end;
+    margin: auto 0;
     color: color(color-p);
     font-family: $primary-ff;
-    width: 100%;
-    text-align: right;
+}
+
+
+.proyect_links {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.proyect_linkto{
+    color: color(color-btn);
+    font-weight: lighter;
+    font-size: fs(regular);
+}
+
+.proyect_linkto_git{
+    padding-left: 20px;
+    color: color(color-complementario);
+    font-weight: lighter;
+    font-size: fs(regular);
+}
+
+.proyect_linkto_git :hover {
+    color: color(color-btn);
+    font-weight: bold;
 }
 
 .proyect_img_box {

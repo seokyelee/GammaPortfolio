@@ -11,9 +11,6 @@ import Thanks from "./views/thanks/Thanks";
 import Nav from "./componentes/Nav/Nav";
 
 
-
-
-
 export const LanguageContext = React.createContext({ language: undefined });
 
 function App() {
@@ -23,12 +20,12 @@ function App() {
   return (
     <>
      <Nav/>
-
+     <div className="language_btn_box">
+        <button className="language_btn_en" onClick={() => setSelectLanguage('en')}> [En]</button>
+        <button className="language_btn" onClick={() => setSelectLanguage('es')}> [Es]</button>
+      </div>
       <LanguageContext.Provider value={{ language: selectLanguage }}>
-      <div>
-        <button onClick={() => setSelectLanguage('en')}> English</button>
-        <button onClick={() => setSelectLanguage('es')}> Spanish</button>
-    </div>
+      
 
 
       <main>
