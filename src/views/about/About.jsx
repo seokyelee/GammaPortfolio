@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import "./About.scss";
 import Thanks from "../thanks/Thanks";
-import Work from "../work/Work";
 import {LanguageContext} from "../../App";
 
 export default function About() {
@@ -32,8 +31,6 @@ export default function About() {
           </article>
           
         </section>
-       
-  
 
         <Thanks />
       </main>

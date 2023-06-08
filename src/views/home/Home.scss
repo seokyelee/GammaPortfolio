@@ -1,28 +1,40 @@
-@import '../../scss/font-family';
-@import '../../scss/typography';
-@import '../../scss/function';
-@import '../../scss/variable.scss';
+@import "../../scss/font-family";
+@import "../../scss/typography";
+@import "../../scss/function";
+@import "../../scss/variable.scss";
 
-:root{
+:root {
     --ti-cursor-margin-left: 0.2em;
-    --ti-cursor-color: #00FFF0;
+    --ti-cursor-color: #00fff0;
 }
 
-[data-typeit-id='5042987'] .ti-cursor{
+[data-typeit-id="5042987"] .ti-cursor {
     transform: var(--ti-cursor-transform, translateX(0.2em));
 }
 
-.typeit{
-    margin:0 auto;
+.typeit {
+    margin: 0 auto;
     font-family: $title-ff;
-    font-size:fs(max);
+    font-size: fs(max);
     justify-content: center;
     text-align: left;
     width: 90%;
     min-width: 320px;
-    color:black;
+    color: black;
     caret-color: color(color-btn);
+}
+
+@media all and (max-width: 780px) {
+    .typeit {
+        font-size: 80px;
     }
 
-    @media all and (max-width: 1440px) {}
-    
+    .footer__box {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .description {
+        font-size: 11px;
+    }
+}
