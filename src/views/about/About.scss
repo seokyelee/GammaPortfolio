@@ -4,61 +4,65 @@
 @import '../../scss/variable';
 @import '../../scss/global';
 
-.about_box{
+.about_box {
     height: auto;
     display: flex;
     padding-top: 70px;
     margin: 0 auto;
     width: calc(100% - 40%);
-    gap:42px;
+    gap: 42px;
 }
 
-.about__p{
+.about__p {
     padding: 0 12px;
     display: flex;
     line-height: 1.13em;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size:$primary-ff ;
+    font-size: $primary-ff ;
     font-size: fs(regular);
     text-align: left;
-    text-indent:15%;
-}
-.about__p h1{
-    line-height: 1em;
-    text-indent:0%;
-}
-.about__p_plus{
-    text-indent:5%;
-    text-align: left;
-}
-h4{
-    padding-top:24px;
+
 }
 
-sup{
-    color:color(color-btn);
+.about__p h1 {
+    line-height: 1em;
+
+}
+
+.about__p_plus {
+    text-align: left;
+}
+
+h4 {
+    padding-top: 24px;
+}
+
+sup {
+    color: color(color-btn);
     font-weight: lighter;
 }
-em{
-    color:darkslategray;
+
+em {
+    color: darkslategray;
 }
 
 @media all and (max-width: 1440px) {
-    .about_box{
+    .about_box {
         width: calc(100% - 10%);
     }
-   
- } 
 
- @media all and (max-width: 780px){
-    .about_box{
+}
+
+@media all and (max-width: 780px) {
+    .about_box {
         flex-direction: column;
         flex-wrap: wrap;
     }
-    .about__p{
+
+    .about__p {
         font-size: fs(small);
     }
-    
- }
+
+}
