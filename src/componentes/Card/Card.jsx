@@ -13,7 +13,7 @@ function Card(props) {
   }
 
   return (
-    <section className="proyect_box" onClick={changeClass}>
+    <section className={"proyect_box " + props.extraClass} onClick={changeClass}>
       <div className="proyect_box_title">
         <h2 id="title_usestate" className="ptoyect_titulo">
           {props.title}

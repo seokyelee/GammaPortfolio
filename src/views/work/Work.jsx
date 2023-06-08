@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Card from "../../componentes/Card/Card";
 import "./Work.scss";
 import Thanks from "../thanks/Thanks";
-
+import { Link } from "react-router-dom";
 
 export default function Work() {
   let [data, setData] = useState([]);
@@ -19,15 +19,18 @@ export default function Work() {
     <>
       <div className="card_div">
         {data.map((item) => (
-          <Card
-            key={item.id}
-            title={item.title}
-            tooltip={item.tooltip}
-            date={item.date}
-            description={item.description}
-            linkto={item.linkto}
-            linktogit={item.linktogit}
-          />
+          <Link to={'/work/' + item.id}>
+            <Card
+              key={item.id}
+              extraClass={item.extraClass}
+              title={item.title}
+              tooltip={item.tooltip}
+              date={item.date}
+              description={item.description}
+              linkto={item.linkto}
+              linktogit={item.linktogit}
+              />
+          </Link>
         ))}
       </div>
       <div className="link_seemore">

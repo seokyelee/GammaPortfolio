@@ -5,6 +5,7 @@ import './scss/global.scss';
 import './scss/variable.scss';
 import Home from "./views/home/Home";
 import Work from "./views/work/Work";
+import WorkDetail from "./views/work-detail/WorkDetail";
 import About from "./views/about/About";
 import Thanks from "./views/thanks/Thanks";
 import Nav from "./componentes/Nav/Nav";
@@ -13,7 +14,7 @@ import Nav from "./componentes/Nav/Nav";
 
 
 
-export const LanguageContext = React.createContext({Language: undefined });
+export const LanguageContext = React.createContext({ language: undefined });
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
       <Routes >
         <Route path="/" element={<Home />} />
         <Route path="/work" element={<Work />} />
+        <Route path="/work/:id" element={<WorkDetail />}/>
         <Route path="/about" element={<About />} />
         <Route path="/thanks" element={<Thanks />} />
       </Routes>
