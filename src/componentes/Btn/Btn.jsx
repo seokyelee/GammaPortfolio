@@ -7,7 +7,7 @@ export default function Btn() {
 	 <>
 		
 				<div className="btn">
-					<button className="btn__pri" type="button">
+					<button className="btn__pri" type="sbmit">
 						Let's talk
 					</button>
 

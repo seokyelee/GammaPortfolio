@@ -69,8 +69,9 @@
     width: 150px;
     font-family: monospace;
     font-size: fs(regular);
-    background-color: #002fff;
-    color: #e2e7fd;
+    background-color: #ffffff;
+    color: color(color-complementario);
+    border: 1px solid color(color-complementario);
     text-align: center;
     padding: 5px 0;
     border-radius: 6px;
@@ -79,7 +80,7 @@
     position: absolute;
     z-index: 1;
     bottom: 125%;
-    left: 50%;
+    left: 40%;
     margin-left: 30px;
 
     /* Fade in tooltip */
@@ -100,7 +101,7 @@
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: #002fff transparent transparent transparent;
+    border-color: color(color-complementario) transparent transparent transparent;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */

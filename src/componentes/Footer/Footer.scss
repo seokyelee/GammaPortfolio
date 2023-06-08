@@ -3,23 +3,19 @@
 @import "../../scss/variable";
 @import "../../scss/function";
 
-footer{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
 
 .footer__box{
     margin: 4px;
     padding: 12px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 42px;
     border: 1px solid color(color-border);
     align-items: center;
 }
 
 .description{
+    width: auto;
     text-align: justify;
     font-size: fs(x-small);
 }

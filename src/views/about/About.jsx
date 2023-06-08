@@ -32,9 +32,8 @@ export default function About() {
           </article>
           
         </section>
-        <h2 className="half_step">{userData.language === 'en' ? "I walk only one step every day but without stopping." : "Camino solo sea un paso todos los días pero sin parar."}</h2>
-
-        <Work />
+       
+  
 
         <Thanks />
       </main>

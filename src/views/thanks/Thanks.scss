@@ -3,16 +3,17 @@
 
 .thanks-container{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     height: 100vh;
-    margin-bottom: 250px;
+    margin-bottom: 180px;
 }
 
 .thanks__box {
     margin-top: 150px;
     font-family: $primary-ff;
     top:0;
-   
     justify-content: center;
     align-items: flex-start;
 }

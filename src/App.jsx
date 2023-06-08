@@ -25,7 +25,7 @@ function App() {
 
       <LanguageContext.Provider value={{ language: selectLanguage }}>
       <div>
-        <button onClick={() => setSelectLanguage('en')}> Engsigh</button>
+        <button onClick={() => setSelectLanguage('en')}> English</button>
         <button onClick={() => setSelectLanguage('es')}> Spanish</button>
     </div>
 

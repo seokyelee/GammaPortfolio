@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Card from "../../componentes/Card/Card";
 import "./Work.scss";
+import Thanks from "../thanks/Thanks";
 
 
 export default function Work() {
@@ -33,6 +34,8 @@ export default function Work() {
       <p> Do you want to know what I did in another sector?</p>
      <a className="link_more" href="https://www.linkedin.com/in/seok-ye-lee-a8196941/" alt="Linkedin">[Clik here]</a>
      </div>
+
+     <Thanks/>
     </>
   );
 }
