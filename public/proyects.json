@@ -22,8 +22,8 @@
         "content": "Lorem impsum sueta uf sydte dsare  dufyct jdl si dusans Lorem impsum sueta uf sydte dsare  dufyct jdl si dusans",
         "linkto": "https://whimsical-salmiakki-f9bf8c.netlify.app",
         "linktogit": "https://github.com/seokyelee/Proyect-Alpha_AboutMe.git",
-        "img1": "aboutweb.png",
-        "img2": "aboutmovil.png"
+        "img1": "/foto/aboutweb.png",
+        "img2": "/foto/aboutmovil.png"
 
     },
     {   "id":"2",
@@ -35,8 +35,8 @@
         "content": "Lorem impsum sueta uf sydte dsare  dufyct jdl si dusans Lorem impsum sueta uf sydte dsare  dufyct jdl si dusans",
         "linkto": "https://esatdev.com/2022/seokye/lluna/",
         "linktogit": "https://github.com/seokyelee/Project-Beta-Lluna.git",
-        "img1": "Lluna01.png",
-        "img2": "Lluna02.png"
+        "img1": "/foto/Lluna01.png",
+        "img2": "/foto/Lluna02.png"
     }
     
 ]

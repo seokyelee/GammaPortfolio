@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
+import "./WorkDetail.scss"
 
 export default function WorkDetail() {
     let [data, setData] = useState([]);
@@ -13,5 +14,23 @@ export default function WorkDetail() {
         });
     }, []);
 
-    return  <h1>{data?.title}</h1>
+    return (
+      <>
+    <h1 className="proyect_h1">{data?.title}</h1>
+ <section className="proyect_detail_box">
+    <p className="proyect_content">{data?.content}</p>
+      <div className="proyect_links">
+          <a className="proyect_linkto" href={data?.linkto}>
+            Demo
+          </a>
+          <a className="proyect_linkto_git" href={data?.linktogit}>
+            GitHub
+          </a>
+      </div>
+      <div className="proyect_img_box">
+          <img className="proyect_img1" src={data?.img1} alt="" />
+      </div>
+    </section></>
+
+  ) 
 }

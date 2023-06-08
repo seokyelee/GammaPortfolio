@@ -27,8 +27,9 @@ function Card(props) {
       
 
       <div className={"proyect_usestate" + classText}>
+      
+          <p className="proyect_content">{props.content}</p>
         
-
         <div className="proyect_links">
           <a className="proyect_linkto" href={props.linkto}>
             Demo
@@ -36,7 +37,11 @@ function Card(props) {
           <a className="proyect_linkto_git" href={props.linktogit}>
             GitHub
           </a>
-        </div>
+          </div>
+          <img src={props.img1} alt="" />
+          <img src={props.img2} alt="" />
+
+       
       </div>
     </section>
   );

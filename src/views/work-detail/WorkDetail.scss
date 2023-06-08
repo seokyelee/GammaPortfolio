@@ -1,0 +1,46 @@
+@import '../../scss/font-family';
+@import '../../scss/typography';
+@import '../../scss/function';
+@import '../../scss/variable.scss';
+
+.proyect_h1 {
+    padding: 30px;
+}
+
+.proyect_detail_box {
+    display: flex;
+    margin: auto 0;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.proyect_content {
+    display: flex;
+    justify-content: flex-end;
+    color: color(color-p);
+    font-family: $primary-ff;
+    width: 100%;
+    text-align: right;
+}
+
+.proyect_img_box {
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.proyect_img1 {
+    width: 60vw;
+    height: auto;
+}
+
+@media all and (max-width: 780px) {
+    .proyect_detail_box {
+       padding: 8px;
+    }
+    .proyect_linkto,
+    .proyect_linkto_git {
+        font-size: small;
+    
+    }
+}
