@@ -17,7 +17,7 @@ export default function Work() {
 
   return (
     <>
-    <h1>Proyects</h1>
+    <h1 className="proyject_page_title">Proyects</h1>
 
       <div className="card_div">
         {data.map((item) => (
