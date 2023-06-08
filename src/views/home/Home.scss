@@ -23,6 +23,7 @@
     color: black;
     caret-color: color(color-btn);
 }
+
 .freeze_text{
     background: none;
     border:none;
@@ -33,6 +34,7 @@
     font-weight: bolder;
     cursor: pointer;
 }
+
 @media all and (max-width: 780px) {
     .typeit {
         font-size: 80px;

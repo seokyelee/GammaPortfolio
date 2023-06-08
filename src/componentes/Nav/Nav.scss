@@ -32,7 +32,7 @@
     box-shadow: 10px 5px 5px #ebebeb;
     border: 1px solid color(color-border);
     font-family: $primary-ff;
-    font-size: fs(x-small); 
+    font-size: fs(x-small);
     position: fixed;
     z-index: 1;
 }
@@ -42,20 +42,24 @@
 .nav__item__linkedin_5,
 .nav__item__home_6,
 .nav__item__work_7 {
-    padding-top:25px;
+    padding-top: 25px;
     padding-bottom: 12px;
     border-right: 1px solid color(color-border);
     text-align: center;
+    place-items: center;
 }
-.page_work{
-    padding-top:8px;
+
+.page_work {
+    padding-top: 8px;
 }
+
 .nav__item__codepen_3,
 .nav__item__git_4,
 .nav__item__about_8 {
-    padding-top:25px;
+    padding-top: 25px;
     padding-bottom: 12px;
     text-align: center;
+    place-items: center;
 }
 
 
@@ -69,18 +73,21 @@
         &__mail {
             width: 22px;
         }
-    
+
         &__linkedin {
             width: 22px;
         }
-    
+
         &__moon {
             width: 20px;
         }
     }
+
     .nav__container {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 1fr 1fr;
+        padding: 8px;
+
     }
 
     .nav__item__linkedin_5,
@@ -99,4 +106,3 @@
         padding: 8px;
     }
 }
-

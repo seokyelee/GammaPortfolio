@@ -3,7 +3,7 @@
         "title": "Proyect Gamma",
         "tooltip":"Portfolio ",
         "date":"Junio 2023",
-        "extraClass": "featured",
+        "extraClass": "",
         "description": "[React]  [SASS]  [JSON]  [UIUX:'Figma']",
         "linkto": "hppts://www.google.com",
         "linktogit": "https://github.com/seokyelee/Proyect-Alpha_AboutMe.git"
@@ -21,7 +21,7 @@
     {   "id":"2",
         "title": "Proyect Beta",
         "tooltip": "Hamburguesa saludable Lluna",
-        "extraClass": "",
+        "extraClass": "featured",
         "date":"Abril 2023",
         "description": "[WordPress]  [PHP]  [SASS]  [UIUX:'Figma']  [woocommerce]  [Digital Marketing]",
         "linkto": "https://esatdev.com/2022/seokye/lluna/",
