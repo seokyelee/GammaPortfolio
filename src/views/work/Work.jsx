@@ -17,7 +17,8 @@ export default function Work() {
 
   return (
     <>
-    <h1></h1>
+    <h1>Proyects</h1>
+
       <div className="card_div">
         {data.map((item) => (
           <Link to={'/work/' + item.id}>

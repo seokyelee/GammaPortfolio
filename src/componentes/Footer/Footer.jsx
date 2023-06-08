@@ -9,7 +9,7 @@ export default function Footer() {
       <footer>
         <div className="footer__box">
         <Link className="page_about" to="/about">
-          <p className="description">
+          <p className="footer__box_description">
             Lorem ipsum dolor sit amet consectetur adipiscing elit ut, vel at id
             purus commodo cubilia varius, ullamcorper placerat lacus habitant
             justo mauris nibh. Non nascetur sagittis volutpat pretium phasellus

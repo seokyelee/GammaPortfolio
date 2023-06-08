@@ -36,8 +36,14 @@
 
 #title_usestate {
     color: color(color-complementario);
+    font-weight: lighter;
+    margin-top:0;
+    margin-bottom:0;
 }
 
+.preyect_date{
+    margin-top:0;
+}
 .proyect_description_box,
 .proyect_links {
     display: flex;
@@ -72,7 +78,8 @@
 /* Tooltip text */
 #title_usestate .tooltiptext {
     visibility: hidden;
-    width: 150px;
+    width: auto;
+    height: 40px;
     font-family: monospace;
     font-size: fs(regular);
     background-color: #ffffff;
@@ -83,10 +90,10 @@
     border-radius: 6px;
     padding: 12px;
     /* Position the tooltip text */
-    position: absolute;
+    position: relative;
     z-index: 1;
-    bottom: 125%;
-    left: 40%;
+    bottom: 70%;
+    left: 30%;
     margin-left: 30px;
 
     /* Fade in tooltip */

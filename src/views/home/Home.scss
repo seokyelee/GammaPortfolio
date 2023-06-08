@@ -20,8 +20,12 @@
     text-align: left;
     width: 90%;
     min-width: 320px;
-    color: black;
+    color: rgb(0, 0, 0);
     caret-color: color(color-btn);
+}
+
+.footer__box_description{
+    font-size: 11px;
 }
 
 .freeze_text{
@@ -45,7 +49,16 @@
         gap: 8px;
     }
 
-    .description {
-        font-size: 11px;
+    .footer__box_description{
+        font-size: 10px;
+    }
+}
+
+@media all and (max-width: 420px) {
+    .typeit {
+        font-size: 52px;
+    }
+    .footer__box_description {
+        font-size: 9px;
     }
 }

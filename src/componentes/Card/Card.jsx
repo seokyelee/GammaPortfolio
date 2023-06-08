@@ -15,10 +15,10 @@ function Card(props) {
   return (
     <section className={"proyect_box " + props.extraClass} onClick={changeClass}>
       <div className="proyect_box_title">
-        <h2 id="title_usestate" className="ptoyect_titulo">
+        <h1 id="title_usestate" className="ptoyect_titulo">
           {props.title}
           <span className="tooltiptext">{props.tooltip}</span>
-        </h2>
+        </h1>
         <p className="preyect_date">{props.date}</p>
         </div>
         <div className="proyect_description_box">
