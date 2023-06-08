@@ -20,12 +20,14 @@ function Card(props) {
           <span className="tooltiptext">{props.tooltip}</span>
         </h2>
         <p className="preyect_date">{props.date}</p>
-      </div>
-
-      <div className={"proyect_usestate" + classText}>
+        </div>
         <div className="proyect_description_box">
           <p className="proyect_descrpition">{props.description}</p>
         </div>
+      
+
+      <div className={"proyect_usestate" + classText}>
+        
 
         <div className="proyect_links">
           <a className="proyect_linkto" href={props.linkto}>

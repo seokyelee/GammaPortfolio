@@ -27,8 +27,11 @@ export default function Work() {
               tooltip={item.tooltip}
               date={item.date}
               description={item.description}
+              content={item.content}
               linkto={item.linkto}
               linktogit={item.linktogit}
+              img1={item.img1}
+              img2={item.img2}
               />
           </Link>
         ))}
