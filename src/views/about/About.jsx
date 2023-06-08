@@ -1,15 +1,16 @@
 import React, { useContext } from "react";
 import "./About.scss";
 import Thanks from "../thanks/Thanks";
-import {LanguageContext} from "../../App";
+import {LanguageContext, ThemeContext} from "../../App";
 
 export default function About() {
 
   const userData = useContext(LanguageContext);
+  const themeContext = useContext(ThemeContext);
 
   return (
     <>
-      <main className="about_main">
+      <main className= {themeContext.theme} about_main>
         <section className="about_box">
           <article className="about__p">
             <h1>{userData.language === 'en' ? "I'm glad to meet you." :  "Encantada de conocerle."}</h1>

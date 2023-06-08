@@ -7,7 +7,7 @@
 .about_box {
     height: auto;
     display: flex;
-    padding-top: 70px;
+    padding-top: 50px;
     margin: 0 auto;
     width: calc(100% - 40%);
     gap: 42px;
@@ -41,11 +41,6 @@ h4 {
 
 sup {
     color: color(color-btn);
-    font-weight: lighter;
-}
-
-em {
-    color: darkslategray;
 }
 
 @media all and (max-width: 1440px) {

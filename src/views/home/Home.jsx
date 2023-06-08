@@ -1,7 +1,6 @@
 import React, { useContext, useState } from "react";
 import TypeIt from "typeit-react";
 import './Home.scss';
-import '../../componentes/Footer/Footer';
 import Footer from "../../componentes/Footer/Footer";
 import { LanguageContext } from "../../App";
 
@@ -18,12 +17,11 @@ export default function Home() {
             setButtonText("[Freeze]");
             return;
         }
-
         instance.freeze();
         setButtonText("[Unfreeze]");
     };
 
-    const languageContext = useContext(LanguageContext);
+    const userLanguage = useContext(LanguageContext);
 
     const getTextEn = function (instance) {
         instance.type("I want to be")
@@ -63,7 +61,7 @@ export default function Home() {
                         options={{ loop: true }}
                         getBeforeInit={(instance) => {
                             setInstance(instance);
-                            return languageContext.language === 'en' ? getTextEn(instance) : getTextEs(instance);
+                            return userLanguage.language === 'en' ? getTextEn(instance) : getTextEs(instance);
                         }}
                     />
                 </div>
