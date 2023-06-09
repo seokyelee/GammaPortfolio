@@ -5,18 +5,9 @@
 @import './icons';
 @import '../componentes/Btn/Btn.scss';
 @import '../componentes/Nav/Nav.scss';
+
 /* global.scss */
 
-.dark {
-    --color-bg: #00218b;
-    --color-text: #fff;
-  }
-  
-  // 기본 스타일
-  .light {
-    --color-bg: #ffffff;
-    --color-text: #000000;
-  }
 
 
 *,
@@ -79,33 +70,8 @@ ul {
 }
 
 .dark {
-    background-color: #00218b;
-
-}
-
-.dark-text {
-    color: #fff;
-}
-
-.toggle_btn {
-    background-color: color(--color-btn);
-    color: color(--color-p);
+    background-color: #000016;
 }
 
 
-.light {
-    background-color: #fff;
-    color: color(--color-bg);
-}
 
-// global.scss
-
-body.light-mode {
-    background-color: var(--bg-color-light);
-    color: var(--text-color-light);
-}
-
-body.dark-mode {
-    background-color: var(--bg-color-dark);
-    color: var(--text-color-dark);
-}

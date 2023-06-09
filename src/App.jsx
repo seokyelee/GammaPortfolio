@@ -1,8 +1,9 @@
-import React, { useContext, useState, useEffect } from "react";
+// App.js
+import React, { useState, useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
-import './App.css';
-import './scss/global.scss';
-import './scss/variable.scss';
+import "./App.css";
+import "./scss/global.scss";
+import "./scss/variable.scss";
 import Home from "./views/home/Home";
 import Work from "./views/work/Work";
 import WorkDetail from "./views/work-detail/WorkDetail";
@@ -14,11 +15,11 @@ export const LanguageContext = React.createContext();
 export const ThemeContext = React.createContext();
 
 function App() {
-  const [selectLanguage, setSelectLanguage] = useState('es');
-  const [selectTheme, setSelectTheme] = useState('light');
+  const [selectLanguage, setSelectLanguage] = useState("es");
+  const [selectTheme, setSelectTheme] = useState("light");
 
   const toggleLanguage = () => {
-    const newLanguage = selectLanguage === 'en' ? 'es' : 'en';
+    const newLanguage = selectLanguage === "en" ? "es" : "en";
     setSelectLanguage(newLanguage);
   };
 
@@ -34,26 +35,11 @@ function App() {
     localStorage.setItem("theme", selectTheme);
   }, [selectTheme]);
 
-  const toggleTheme = () => {
-    const newTheme = selectTheme === 'light' ? 'dark' : 'light';
-    setSelectTheme(newTheme);
-  };
-
   return (
     <>
-      <Nav />
-
-      <ThemeContext.Provider value={{ theme: selectTheme }}>
-        <LanguageContext.Provider value={{ language: selectLanguage }}>
-          <div className="toggle_btn_box">
-            <button className={`toggle_btn ${selectLanguage === 'en' ? 'active' : ''}`} onClick={toggleLanguage}>
-              {selectLanguage === 'en' ? 'En' : 'Es'}
-            </button>
-            <button className={`toggle_btn ${selectTheme === 'dark' ? 'active' : ''}`} onClick={toggleTheme}>
-              {selectTheme === 'dark' ? 'Dark' : 'Light'}
-            </button>
-          </div>
-
+      <ThemeContext.Provider value={{ theme: selectTheme, setTheme: setSelectTheme }}>
+        <LanguageContext.Provider value={{ language: selectLanguage, setLanguage: setSelectLanguage }}>
+          <Nav />
           <main>
             <Routes>
               <Route path="/" element={<Home />} />

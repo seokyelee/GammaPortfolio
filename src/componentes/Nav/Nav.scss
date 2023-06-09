@@ -4,6 +4,7 @@
 @import "../../scss/function";
 
 
+
 .icon {
 
     &__codepen,
@@ -38,9 +39,8 @@
 }
 
 .nav__container.dark{
-    background-color: #9bbeff;
-    color: #030303;
-    border-color:grayblue;
+    background-color: #000016;
+    box-shadow: 10px 5px 5px #050049;   
 }
 
 .nav__item__mail_1,

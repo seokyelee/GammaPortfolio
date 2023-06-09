@@ -9,7 +9,7 @@ export default function About() {
   const themeContext = useContext(ThemeContext);
 
   const textStyle = {
-    color: themeContext.theme === 'dark' ? '#fff' : '',
+    color: themeContext.theme === 'dark' ? '#ededdf' : '',
   };
 
 

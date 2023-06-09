@@ -34,8 +34,8 @@ export default function Home() {
     
     const darkModeStyle = {
         // 다크 모드 스타일
-        backgroundColor: "#00218b",
-        color: "white",
+        backgroundColor: "#000016",
+        color: "#ededdf",
       };
 
       const getMainStyle = () => {
