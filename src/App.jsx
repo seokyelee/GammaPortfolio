@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import './App.css';
 import './scss/global.scss';
@@ -15,49 +15,61 @@ export const LanguageContext = React.createContext({ language: undefined });
 export const ThemeContext = React.createContext({ theme: undefined });
 
 function App() {
-
   const [selectLanguage, setSelectLanguage] = useState('es');
   const [selectTheme, setSelectTheme] = useState('light');
 
+  const toggleLanguage = () => {
+    const newLanguage = selectLanguage === 'en' ? 'es' : 'en';
+    setSelectLanguage(newLanguage);
+   
+  };
+
+  useEffect(() => {
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme) {
+      setSelectTheme(savedTheme);
+    }
+  }, []);
+
+  useEffect(() => {
+    document.body.className = selectTheme;
+    localStorage.setItem("theme", selectTheme);
+  }, [selectTheme]);
+
+  const toggleTheme = () => {
+    const newTheme = selectTheme === 'light' ? 'dark' : 'light';
+    setSelectTheme(newTheme);
+  };
+
+  
   return (
     <>
       <Nav />
-      
-      <ThemeContext.Provider value={{ theme: selectTheme }}>
-      <LanguageContext.Provider value={{ language: selectLanguage }}>
-      <div className="language_btn_box">
-        <button className="language_btn_en" onClick={() => setSelectLanguage('en')}> [En]</button>
-        <button className="language_btn" onClick={() => setSelectLanguage('es')}> [Es]</button>
-      </div>
-      <div className="theme_btn_box">
-        <button className="theme_btn_en" onClick={() => setSelectTheme('light')}> [light]</button>
-        <button className="theme_btn" onClick={() => setSelectTheme('dark')}> [dark]</button>
-      </div>
 
-        <main>
-          <Routes >
-            <Route path="/" element={<Home />} />
-            <Route path="/work" element={<Work />} />
-            <Route path="/work/:id" element={<WorkDetail />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/thanks" element={<Thanks />} />
-          </Routes>
-        </main>
-      </LanguageContext.Provider>
+      <ThemeContext.Provider value={{ theme: selectTheme }}>
+        <LanguageContext.Provider value={{ language: selectLanguage }}>
+          <div className="toggle_btn_box">
+            <button className={`toggle_btn ${selectLanguage === 'en' ? 'active' : ''}`} onClick={toggleLanguage}>
+              {selectLanguage === 'en' ? 'En' : 'Es'}
+            </button>
+            <button className={`toggle_btn ${selectTheme === 'light' ? 'active' : ''}`} onClick={toggleTheme}>
+              {selectTheme === 'light' ? 'Light' : 'Dark'}
+            </button>
+          </div>
+
+          <main>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/work" element={<Work />} />
+              <Route path="/work/:id" element={<WorkDetail />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/thanks" element={<Thanks />} />
+            </Routes>
+          </main>
+        </LanguageContext.Provider>
       </ThemeContext.Provider>
     </>
   );
 }
 
-
-
 export default App;
-
-
-
-
-
-
-
-
-
