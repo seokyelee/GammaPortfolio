@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import TypeIt from "typeit-react";
 import './Home.scss';
 import Footer from "../../componentes/Footer/Footer";
-import { LanguageContext } from "../../App";
+import { LanguageContext, ThemeContext } from "../../App";
 
 
 
@@ -21,7 +21,27 @@ export default function Home() {
         setButtonText("[Unfreeze]");
     };
 
+
+
     const userLanguage = useContext(LanguageContext);
+    const themeContext = useContext(ThemeContext);
+
+    const mainStyle = {
+        // 일반 모드 스타일
+        backgroundColor: "",
+        color: "",
+      };
+    
+    const darkModeStyle = {
+        // 다크 모드 스타일
+        backgroundColor: "#00218b",
+        color: "white",
+      };
+
+      const getMainStyle = () => {
+        // 테마에 따라 스타일을 선택
+        return themeContext.theme === "dark" ? darkModeStyle : mainStyle;
+      };
 
     const getTextEn = function (instance) {
         instance.type("I want to be")
@@ -51,17 +71,20 @@ export default function Home() {
         return instance;
     }
 
+
+   
     return (
         <>
 
-            <main >
+            <main  >
 
-                <div className="typeit_container">
-                    <TypeIt className="typeit"
+                <div  className="typeit_container">
+                    <TypeIt  style={getMainStyle()} className="typeit"
                         options={{ loop: true }}
                         getBeforeInit={(instance) => {
                             setInstance(instance);
-                            return userLanguage.language === 'en' ? getTextEn(instance) : getTextEs(instance);
+                            return (userLanguage.language === 'en' ? getTextEn(instance) : getTextEs(instance));
+
                         }}
                     />
                 </div>

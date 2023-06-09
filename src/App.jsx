@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import './App.css';
 import './scss/global.scss';
@@ -10,9 +10,8 @@ import About from "./views/about/About";
 import Thanks from "./views/thanks/Thanks";
 import Nav from "./componentes/Nav/Nav";
 
-
-export const LanguageContext = React.createContext({ language: undefined });
-export const ThemeContext = React.createContext({ theme: undefined });
+export const LanguageContext = React.createContext();
+export const ThemeContext = React.createContext();
 
 function App() {
   const [selectLanguage, setSelectLanguage] = useState('es');
@@ -21,7 +20,6 @@ function App() {
   const toggleLanguage = () => {
     const newLanguage = selectLanguage === 'en' ? 'es' : 'en';
     setSelectLanguage(newLanguage);
-   
   };
 
   useEffect(() => {
@@ -41,7 +39,6 @@ function App() {
     setSelectTheme(newTheme);
   };
 
-  
   return (
     <>
       <Nav />
@@ -52,8 +49,8 @@ function App() {
             <button className={`toggle_btn ${selectLanguage === 'en' ? 'active' : ''}`} onClick={toggleLanguage}>
               {selectLanguage === 'en' ? 'En' : 'Es'}
             </button>
-            <button className={`toggle_btn ${selectTheme === 'light' ? 'active' : ''}`} onClick={toggleTheme}>
-              {selectTheme === 'light' ? 'Light' : 'Dark'}
+            <button className={`toggle_btn ${selectTheme === 'dark' ? 'active' : ''}`} onClick={toggleTheme}>
+              {selectTheme === 'dark' ? 'Dark' : 'Light'}
             </button>
           </div>
 

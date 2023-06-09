@@ -37,6 +37,12 @@
     z-index: 1;
 }
 
+.nav__container.dark{
+    background-color: #9bbeff;
+    color: #030303;
+    border-color:grayblue;
+}
+
 .nav__item__mail_1,
 .nav__item__moon_2,
 .nav__item__linkedin_5,
@@ -106,3 +112,4 @@
         padding: 8px;
     }
 }
+

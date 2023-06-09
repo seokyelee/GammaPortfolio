@@ -5,15 +5,30 @@
 @import './icons';
 @import '../componentes/Btn/Btn.scss';
 @import '../componentes/Nav/Nav.scss';
+/* global.scss */
 
-*, :after, :before {
+.dark {
+    --color-bg: #00218b;
+    --color-text: #fff;
+  }
+  
+  // 기본 스타일
+  .light {
+    --color-bg: #ffffff;
+    --color-text: #000000;
+  }
+
+
+*,
+:after,
+:before {
     box-sizing: border-box;
 }
 
 html {
     box-sizing: border-box;
-    margin:0 auto;
-    padding:0;
+    margin: 0 auto;
+    padding: 0;
 }
 
 body {
@@ -26,7 +41,7 @@ body {
     background-color: color(color-bg);
 }
 
-#root{
+#root {
     display: flex;
     flex-direction: column;
 }
@@ -39,27 +54,58 @@ header {
 }
 
 
-main{
+main {
     display: flex;
     flex: 1;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     max-width: 100%;
-    margin:0;
+    margin: 0;
 }
 
 ul {
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 
-.exemple__p{
+.exemple__p {
     text-align: left;
 }
 
-  *::selection {
+*::selection {
     background-color: #eeff00;
     color: #f0a2e9;
 }
 
+.dark {
+    background-color: #00218b;
+
+}
+
+.dark-text {
+    color: #fff;
+}
+
+.toggle_btn {
+    background-color: color(--color-btn);
+    color: color(--color-p);
+}
+
+
+.light {
+    background-color: #fff;
+    color: color(--color-bg);
+}
+
+// global.scss
+
+body.light-mode {
+    background-color: var(--bg-color-light);
+    color: var(--text-color-light);
+}
+
+body.dark-mode {
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-dark);
+}

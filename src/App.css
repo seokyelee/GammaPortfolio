@@ -1,14 +1,7 @@
 
 
-.language_btn_en{
+.toggle_btn_box{
     margin-top:130px;
-}
-
-.language_btn{
-    margin-top:15px;
-}
-.language_btn_en, .language_btn{
-    transform: rotate(-90deg);
     display: flex;
     flex-direction: column;
     border-style: none;
@@ -16,5 +9,7 @@
     box-shadow: none;
     color: #8A4ADD;
     cursor: pointer;
+    width:40px;
 }
+
 

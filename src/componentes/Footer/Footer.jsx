@@ -1,15 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Footer.scss";
 import BacoderSmall from "../../assets/img/BacoderSmall";
 import { Link } from "react-router-dom";
+import { ThemeContext } from "../../App";
 
 export default function Footer() {
+
+  const themeContext = useContext(ThemeContext);
+
   return (
     <>
-      <footer>
+      <footer >
         <div className="footer__box">
         <Link className="page_about" to="/about">
-          <p className="footer__box_description">
+          <p className={`footer__box_description ${themeContext.theme === "dark" ? "dark" : ""}`}>
             Lorem ipsum dolor sit amet consectetur adipiscing elit ut, vel at id
             purus commodo cubilia varius, ullamcorper placerat lacus habitant
             justo mauris nibh. Non nascetur sagittis volutpat pretium phasellus

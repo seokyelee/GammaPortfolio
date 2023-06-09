@@ -1,20 +1,22 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import "./Nav.scss";
-import "../../scss/global.scss";
 import "../../App";
 import IconMoon from "../../assets/Icons/IconMoon";
 import IconMail from "../../assets/Icons/IconMail";
 import IconCodepen from "../../assets/Icons/IconCodepen";
 import IconGit from "../../assets/Icons/IconGit";
 import IconLinkedin from "../../assets/Icons/IconLinkedin";
-
+import { ThemeContext } from "../../App";
 
 
 export default function Nav() {
+
+	const themeContext = useContext(ThemeContext);
+
 	return (
 		<>
-			<section className="nav__container">
+			 <section className={`nav__container ${themeContext?.theme === "dark" ? "dark" : ""}`}>
 				<div className="nav__item__mail_1">
 					<Link  className="icono_mail__page_thanks" to="/thanks">
 						<IconMail />
