@@ -15,7 +15,7 @@ export const LanguageContext = React.createContext();
 export const ThemeContext = React.createContext();
 
 function App() {
-  const [selectLanguage, setSelectLanguage] = useState("es");
+  const [selectLanguage, setSelectLanguage] = useState("en");
   const [selectTheme, setSelectTheme] = useState("light");
 
   const toggleLanguage = () => {
