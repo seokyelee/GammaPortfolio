@@ -6,9 +6,6 @@
 @import '../componentes/Btn/Btn.scss';
 @import '../componentes/Nav/Nav.scss';
 
-/* global.scss */
-
-
 
 *,
 :after,
@@ -23,6 +20,7 @@ html {
 }
 
 body {
+
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -74,10 +72,17 @@ ul {
 }
 
 
-a:link, a:visited, a:active {
-    text-decoration:none;
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
     position: relative;
 }
+
+
+/* effect transition hover underline */
+
+
 .nav__container a::after {
     content: '';
     position: absolute;
@@ -86,15 +91,16 @@ a:link, a:visited, a:active {
     width: 0;
     border-bottom: 2px solid transparent;
     background-color: #00ffdd;
-    transition: width 0.3s ease; /* 호버에 대한 트랜지션 추가 */
-  }
-  
-  .nav__container  a:hover::after {
-    width: 100%;
-  }
+    transition: width 0.3s ease;
+    /* Add transition for hover */
+}
 
-  
-  .proyect_links a::after {
+.nav__container a:hover::after {
+    width: 100%;
+}
+
+
+.proyect_links a::after {
     content: '';
     position: absolute;
     left: 0;
@@ -102,15 +108,10 @@ a:link, a:visited, a:active {
     width: 0;
     border-bottom: 2px solid transparent;
     background-color: #00ffdd;
-    transition: width 0.3s ease; /* 호버에 대한 트랜지션 추가 */
-  }
-  
-  
-    
-  .proyect_links a:hover::after {
+    transition: width 0.3s ease;
+    /* Add transition for hover */
+}
+
+.proyect_links a:hover::after {
     width: 100%;
-  }
-  
-  
-  
-  
+}

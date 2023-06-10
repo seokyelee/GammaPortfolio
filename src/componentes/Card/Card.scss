@@ -13,21 +13,48 @@
     top: 20px;
     padding: 20px;
     width: 80vw;
-    border:0.1px solid color(color-complementario);
+    border: 0.1px solid color(color-complementario);
     border-radius: 8px;
     box-shadow: 8px 5px 5px #e4f5f4;
 }
 
-.hover-effect:hover {
-    background-color: rgb(222, 250, 245) !important;
-}
-.featured:hover {
-    background-color: rgb(255, 239, 239) !important;
+.proyect_box {
+    &:hover {
+        background-color: rgb(248, 240, 255); // 기본 호버 스타일
+    }
+
+    // dark mode hover style
+
+    // Other hover styles for default and dark mode
+    &.hover-effect:hover {
+        background-color: rgb(222, 250, 245) !important;
+    }
+
+    &.featured:hover {
+        background-color: rgb(255, 239, 239) !important;
+    }
+
+    &.dark-mode-hover {
+        // Dark mode default style
+
+        &:hover {
+            background-color: rgb(1, 46, 58) !important;
+        }
+
+        &.hover-effect:hover,
+        &.hover-effect.dark-mode-hover:hover {
+            background-color: rgb(39, 0, 39) !important;
+        }
+
+        &.featured:hover,
+        &.featured.dark-mode-hover:hover {
+            background-color: rgb(27, 1, 59) !important;
+        }
+    }
 }
 
-.proyect_box:hover {
-    background-color: rgb(248, 240, 255);
-}
+
+
 
 .proyect_box_title {
     display: flex;
@@ -39,17 +66,17 @@
 #title_usestate {
     color: color(color-complementario);
     font-weight: lighter;
-    margin-top:20px;
-    margin-bottom:12px;
+    margin-top: 20px;
+    margin-bottom: 12px;
 }
 
-.preyect_date{
-    margin-top:0;
+.preyect_date {
+    margin-top: 0;
 }
-.proyect_description_box{
+
+.proyect_description_box {
     text-align: right;
 }
-
 
 /* Tooltip container */
 #title_usestate {
@@ -76,7 +103,6 @@
     z-index: 1;
     bottom: 70%;
     left: 12px;
-   
 
     /* Fade in tooltip */
     opacity: 0;
@@ -121,7 +147,6 @@ a {
     font-size: fs(small);
 }
 
-a:hover{
+a:hover {
     font-weight: bolder;
 }
-
