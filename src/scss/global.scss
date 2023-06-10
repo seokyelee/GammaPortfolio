@@ -74,4 +74,43 @@ ul {
 }
 
 
+a:link, a:visited, a:active {
+    text-decoration:none;
+    position: relative;
+}
+.nav__container a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    border-bottom: 2px solid transparent;
+    background-color: #00ffdd;
+    transition: width 0.3s ease; /* 호버에 대한 트랜지션 추가 */
+  }
+  
+  .nav__container  a:hover::after {
+    width: 100%;
+  }
 
+  
+  .proyect_links a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    border-bottom: 2px solid transparent;
+    background-color: #00ffdd;
+    transition: width 0.3s ease; /* 호버에 대한 트랜지션 추가 */
+  }
+  
+  
+    
+  .proyect_links a:hover::after {
+    width: 100%;
+  }
+  
+  
+  
+  

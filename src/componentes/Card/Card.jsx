@@ -26,7 +26,7 @@ function Card(props) {
     <section style={shadowStyle} className={"proyect_box " + props.extraClass} onClick={changeClass}>
       <div className="proyect_box_title">
         <h1 id="title_usestate" className="ptoyect_titulo">
-          {props.title}
+          {props.title} 
           <span className="tooltiptext">{props.tooltip}</span>
         </h1>
         <p className="preyect_date">{props.date}</p>
