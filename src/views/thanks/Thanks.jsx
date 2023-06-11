@@ -20,12 +20,13 @@ export default function Thanks() {
   ) : (
     'Espero que sea un lugar donde pueda echar <span className="raices">raíces</span>.'
   );
-  
+
   return (
     <>
       <main className="thanks-container">
         <section className="thanks__box">
           <div className="arbol">
+       <img  src="foto/Ellipse 3.png" alt="brotes verdes" />
     
           </div>
           <h3
@@ -33,7 +34,7 @@ export default function Thanks() {
             className="be__root"
             dangerouslySetInnerHTML={{ __html: rootsText }}
           ></h3>
-
+         
           <Btn />
         </section>
       </main>
