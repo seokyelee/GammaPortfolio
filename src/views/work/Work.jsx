@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from "react";
-
 import Card from "../../componentes/Card/Card";
 import "./Work.scss";
 import "../../scss/global.scss";
-import Thanks from "../thanks/Thanks";
 import { Link } from "react-router-dom";
 
 export default function Work() {
   let [data, setData] = useState([]);
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   useEffect(() => {
     fetch("/proyects.json")
@@ -25,9 +26,8 @@ export default function Work() {
 
         <div className="card_div">
           {data.map((item) => (
-            <Link to={'/work/' + item.id}>
+            <Link key={item.id} to={'/work/' + item.id}>
               <Card
-                key={item.id}
                 extraClass={item.extraClass}
                 title={item.title}
                 tooltip={item.tooltip}
@@ -46,8 +46,11 @@ export default function Work() {
           <p> Do you want to know what I did in another sector?</p>
           <a className="link_more" href="https://www.linkedin.com/in/seok-ye-lee-a8196941/" alt="Linkedin">[Clik here]</a>
         </div>
-
-        <Thanks />
+        <div className="scrollToTop">
+          <a href="#" onClick={scrollToTop}>
+            Top
+          </a>
+        </div>
       </main>
 
     </>

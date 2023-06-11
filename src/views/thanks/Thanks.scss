@@ -1,5 +1,9 @@
 @import '../../scss/variable.scss';
 @import '../../componentes/Btn/Btn';
+@import '../../scss/function';
+@import '../../scss/typography';
+@import '../../scss/font-family';
+@import '../../scss/global';
 
 .thanks-container{
     display: flex;
@@ -18,10 +22,9 @@
 }
 
 .be__root span {
-    color: color(color-btn);
+    color: aqua;
 }
-.fa-duotone .fa-seedling{
-    color:aqua;
-}
+
+
 
 

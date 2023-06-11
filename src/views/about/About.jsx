@@ -1,7 +1,8 @@
 import React, { useContext } from "react";
 import "./About.scss";
-import Thanks from "../thanks/Thanks";
 import { LanguageContext, ThemeContext } from "../../App";
+import { Link } from "react-router-dom";
+
 
 export default function About() {
 
@@ -12,6 +13,9 @@ export default function About() {
     color: themeContext.theme === 'dark' ? '#ededdf' : '',
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   return (
     <>
@@ -39,7 +43,17 @@ export default function About() {
 
         </section>
 
-        <Thanks />
+        <div className="link_talk">
+          <p> would you like to talk to me?</p>
+          <Link className="icono_mail__page_thanks" to="/thanks">
+            [Clik here]
+          </Link>
+        </div>
+        <div className="scrollToTop">
+          <a href="#" onClick={scrollToTop}>
+            Top
+          </a>
+        </div>
       </main>
     </>
   );

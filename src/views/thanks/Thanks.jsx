@@ -15,22 +15,19 @@ export default function Thanks() {
     boxShadow: themeContext.theme === "dark" ? "10px 5px 5px #050049 " : "",
   };
 
-  const rootsText =
-    userData.language === "en"
-      ? 'Be the place where I will put my <span className="roots"></span>roots.'
-      : 'Espero que sea un lugar donde pueda echar <span className="raices"></span>raíces.';
-
+  const rootsText = userData.language === "en" ? (
+    'Be the place where I will put my <span className="roots">roots</span>.'
+  ) : (
+    'Espero que sea un lugar donde pueda echar <span className="raices">raíces</span>.'
+  );
+  
   return (
     <>
       <main className="thanks-container">
         <section className="thanks__box">
           <div className="arbol">
-      
-
-
+    
           </div>
-
-
           <h3
             style={textStyle}
             className="be__root"

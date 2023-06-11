@@ -29,7 +29,9 @@
 
 .about__p h1 {
     line-height: 1em;
-
+    color:color(color-p);
+    font-size: fs(regular);
+    text-align: left;
 }
 
 .about__p_plus {
@@ -43,6 +45,15 @@ h4 {
 sup {
     color: color(color-btn);
 }
+
+.link_talk{
+    padding: 26px;
+}
+.link_talk .icono_mail__page_thanks{
+    color:color(color-btn);
+    padding-bottom: 60px;
+}
+
 
 @media all and (max-width: 1440px) {
     .about_box {
