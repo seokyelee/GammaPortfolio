@@ -255,13 +255,13 @@ export default function Thanks() {
             </svg>
             
           </div>
-          return (
+        
           <h3
             style={textStyle}
             className="be__root"
             dangerouslySetInnerHTML={{ __html: rootsText }}
           ></h3>
-          );
+          
           <Btn />
         </section>
       </main>
