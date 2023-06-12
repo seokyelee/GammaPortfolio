@@ -71,7 +71,7 @@ export default function Nav() {
 				</div>
 				<div className="toggle_btn_theme">
 					<button style={textStyle} className={`toggle_btn ${themeContext.theme === "dark" ? "active" : ""}`} onClick={handleThemeToggle}>
-						{themeContext.theme === "dark" ? <IconMoon /> : <img src="./icons/sun.png" alt="Light Icon" className="toggle_btn__icon" />}
+						{themeContext.theme === "dark" ? <IconMoon /> : <img src="foto/sun.png" alt="Light Icon" className="toggle_btn__icon" />}
 					</button>
 				</div>
 				<div className="nav__item__mail">
