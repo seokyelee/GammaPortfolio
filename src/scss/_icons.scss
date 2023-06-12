@@ -1,7 +1,21 @@
 .icon__codepen{
     width:32px;
     height:32px;
+    transition: color 0.3s ease-in-out;
+    
 }
+.icon__codepen {
+    width: 32px;
+    height: 32px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    fill: #8E8E8E;
+  }
+  
+  .icon__codepen:hover {
+    fill: red; /* 호버 시에 변경할 색상 설정 */
+    transform: scale(1.2); /* 살짝 움직임을 위한 스케일 변환 설정 */
+  }
+  
 
 .icon__git{
     width:32px;
