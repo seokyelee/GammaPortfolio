@@ -7,6 +7,7 @@ import IconCodepen from "../../assets/Icons/IconCodepen";
 import IconGit from "../../assets/Icons/IconGit";
 import IconLinkedin from "../../assets/Icons/IconLinkedin";
 import { ThemeContext, LanguageContext } from "../../App";
+import IconMoon from "../../assets/Icons/IconMoon";
 
 export default function Nav() {
 	const themeContext = useContext(ThemeContext);
@@ -70,7 +71,7 @@ export default function Nav() {
 				</div>
 				<div className="toggle_btn_theme">
 					<button style={textStyle} className={`toggle_btn ${themeContext.theme === "dark" ? "active" : ""}`} onClick={handleThemeToggle}>
-						{themeContext.theme === "dark" ? "Dark" : "Light"}
+						{themeContext.theme === "dark" ? <IconMoon /> : <img src="./icons/sun.png" alt="Light Icon" className="toggle_btn__icon" />}
 					</button>
 				</div>
 				<div className="nav__item__mail">

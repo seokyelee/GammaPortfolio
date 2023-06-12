@@ -3,22 +3,22 @@
 @import '../../scss/function';
 @import '../../scss/variable.scss';
 
- 
- a {
-    text-decoration-color: none;
+
+a {
+     text-decoration-color: none;
 }
 
-.work_page{
+.work_page {
      width: 100vw;
-     margin-top:-80px;
+     margin-top: -80px;
      height: 100vh;
 }
-.link_more{
-     color:color(color-btn);
+
+.link_more {
+     color: color(color-btn);
 }
 
-.proyject_page_title{
+.proyject_page_title {
      margin-top: 40px;
      margin-bottom: 30px;
 }
-

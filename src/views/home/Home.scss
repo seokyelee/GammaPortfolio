@@ -3,8 +3,6 @@
 @import "../../scss/function";
 @import "../../scss/variable.scss";
 
-
-
 :root {
     --ti-cursor-margin-left: 0.2em;
     --ti-cursor-color: #00fff0;
@@ -15,7 +13,7 @@
 }
 
 .typeit {
-   padding-bottom: -50px;
+    padding-bottom: -50px;
     margin: 0 auto;
     font-family: $title-ff;
     font-size: fs(max);
@@ -28,14 +26,14 @@
     caret-color: color(color-btn);
 }
 
-.footer__box_description{
+.footer__box_description {
     font-size: 11px;
 }
 
-.freeze_text{
+.freeze_text {
     background: none;
-    border:none;
-    color:color(color-btn);
+    border: none;
+    color: color(color-btn);
     display: flex;
     justify-content: flex-end;
     padding-right: 60px;
@@ -53,7 +51,7 @@
         gap: 8px;
     }
 
-    .footer__box_description{
+    .footer__box_description {
         font-size: 10px;
     }
 }
@@ -62,6 +60,7 @@
     .typeit {
         font-size: 52px;
     }
+
     .footer__box_description {
         font-size: 9px;
     }

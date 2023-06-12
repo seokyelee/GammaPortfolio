@@ -7,24 +7,24 @@ export default function Btn() {
 
 	const textStyle = {
 		color: themeContext.theme === 'dark' ? '#fff' : '',
-		fontWeight : themeContext.theme === 'dark' ? 'border' : '',
+		fontWeight: themeContext.theme === 'dark' ? 'border' : '',
 		backgroundColor: themeContext.theme === 'dark' ? '#8A4ADD' : '',
-		border : themeContext.theme === 'dark' ? '1px solid #fff' : '',
-	  };
-	
-	  const shadowStyle = {
+		border: themeContext.theme === 'dark' ? '1px solid #fff' : '',
+	};
+
+	const shadowStyle = {
 		boxShadow: themeContext.theme === 'dark' ? '10px 5px 5px #0b027a ' : '',
-		};
+	};
 
 	return (
-	 <>
-		
-				<div className="btn">
-					<button style={{ ...shadowStyle, ...textStyle }} className="btn__pri" type="sbmit">
-						Let's talk
-					</button>
+		<>
 
-				</div>
-			</>
-		);
+			<div className="btn">
+				<button style={{ ...shadowStyle, ...textStyle }} className="btn__pri" type="sbmit">
+					Let's talk
+				</button>
+
+			</div>
+		</>
+	);
 }

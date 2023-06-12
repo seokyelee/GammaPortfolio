@@ -3,8 +3,6 @@
 @import "../../scss/variable";
 @import "../../scss/function";
 
-
-
 .icon {
 
     &__codepen,
@@ -86,11 +84,9 @@
     font-size: fs(small);
 }
 
-
 @media all and (max-width: 1440px) {}
 
 @media all and (max-width: 780px) {
-
     .icon {
 
         &__codepen,
@@ -115,10 +111,10 @@
 
     .nav__container>div {
         padding-top: 8px;
-    padding-bottom: 8px;
+        padding-bottom: 8px;
     }
 
-    .nav__container>div:nth-child(-n+4) {
+    .nav__container>div:nth-child(-n + 4) {
         flex-basis: 25%;
     }
 
@@ -126,7 +122,6 @@
     .nav__container>div:nth-child(6) {
         flex-basis: 30%;
     }
-
 
     .nav__container>div:nth-child(7) {
         flex-basis: 5%;
@@ -145,6 +140,7 @@
     .nav__container button {
         font-size: fs(x-small);
     }
+
     .nav__item__home,
     .nav__item__linkedin,
     .nav__item__codepen,
@@ -152,7 +148,8 @@
         padding: 8px;
         border-bottom: 1px solid color(color-border);
     }
- a {
-    font-size: fs(x-small);
- }
+
+    a {
+        font-size: fs(x-small);
+    }
 }

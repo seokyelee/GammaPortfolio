@@ -1,8 +1,9 @@
 [
-    {   "id":"0",
+    {
+        "id": "0",
         "title": "Gamma",
-        "tooltip":"Portfolio ",
-        "date":"6 / 2023",
+        "tooltip": "Portfolio ",
+        "date": "6 / 2023",
         "extraClass": "",
         "description": "[React]  [SASS]  [JSON]  [UIUX:'Figma']",
         "content": "Lorem impsum sueta uf sydte dsare  dufyct jdl si dusans Lorem impsum sueta uf sydte dsare  dufyct jdl si dusans",
@@ -10,13 +11,12 @@
         "linktogit": "https://github.com/seokyelee/Proyect-Alpha_AboutMe.git",
         "img1": "",
         "img2": ""
-
     },
-    
-    {   "id":"1",
+    {
+        "id": "1",
         "title": "Alpha",
         "tooltip": "First my webpage ",
-        "date":"12 / 2022",
+        "date": "12 / 2022",
         "extraClass": "hover-effect",
         "description": "[HTML]  [CSS]  [UIUX:'Figma']",
         "content": "Lorem impsum sueta uf sydte dsare  dufyct jdl si dusans Lorem impsum sueta uf sydte dsare  dufyct jdl si dusans",
@@ -24,13 +24,13 @@
         "linktogit": "https://github.com/seokyelee/Proyect-Alpha_AboutMe.git",
         "img1": "/foto/aboutweb.png",
         "img2": "/foto/aboutmovil.png"
-
     },
-    {   "id":"2",
+    {
+        "id": "2",
         "title": "Beta",
         "tooltip": "Hamburguesa saludable Lluna",
         "extraClass": "featured",
-        "date":"4 / 2023",
+        "date": "4 / 2023",
         "description": "[WordPress]  [PHP]  [SASS]  [UIUX:'Figma']  [woocommerce]  [Digital Marketing]",
         "content": "Lorem impsum sueta uf sydte dsare  dufyct jdl si dusans Lorem impsum sueta uf sydte dsare  dufyct jdl si dusans",
         "linkto": "https://esatdev.com/2022/seokye/lluna/",
@@ -38,5 +38,4 @@
         "img1": "/foto/Lluna01.png",
         "img2": "/foto/Lluna02.png"
     }
-    
 ]

@@ -1,8 +1,8 @@
-@import '../../scss/function';
-@import '../../scss/typography';
-@import '../../scss/font-family';
-@import '../../scss/variable';
-@import '../../scss/global';
+@import "../../scss/function";
+@import "../../scss/typography";
+@import "../../scss/font-family";
+@import "../../scss/variable";
+@import "../../scss/global";
 
 .about_box {
     height: auto;
@@ -21,15 +21,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: $primary-ff ;
+    font-size: $primary-ff;
     font-size: fs(regular);
     text-align: left;
-
 }
 
 .about__p h1 {
     line-height: 0.9em;
-    color:color(color-p);
+    color: color(color-p);
     font-size: fs(regular);
     text-align: left;
 }
@@ -46,20 +45,19 @@ sup {
     color: color(color-btn);
 }
 
-.link_talk{
+.link_talk {
     padding: 26px;
 }
-.link_talk .icono_mail__page_thanks{
-    color:color(color-btn);
+
+.link_talk .icono_mail__page_thanks {
+    color: color(color-btn);
     padding-bottom: 60px;
 }
-
 
 @media all and (max-width: 1440px) {
     .about_box {
         width: calc(100% - 10%);
     }
-
 }
 
 @media all and (max-width: 780px) {
@@ -71,5 +69,4 @@ sup {
     .about__p {
         font-size: fs(small);
     }
-
 }
