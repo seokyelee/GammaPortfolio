@@ -6,10 +6,13 @@
         "date": "6 / 2023",
         "extraClass": "",
         "description": "[React]  [SASS]  [JSON]  [UIUX:'Figma']",
-        "content": "Lorem impsum sueta uf sydte dsare  dufyct jdl si dusans Lorem impsum sueta uf sydte dsare  dufyct jdl si dusans",
+        "content":  {
+            "en": "The Gamma Project was my most recent project, a portfolio that I developed as part of my postgraduate studies at ESAT. I used React and SASS with Vite as main tools, while deepening my knowledge of JavaScript, React and SASS. I created the components to structure the Design System based on Atomic Design, both with Figma and React. Also, I used various libraries to add effects and animations, including keyframes.",
+            "es": "El Proyecto Gamma fue mi proyecto más reciente, un portfolio que desarrollé como parte de mi postgrado en la ESAT. Utilicé React y SASS con Vite como herramientas principales, mientras profundizaba mis conocimientos en JavaScript, React y SASS. S Creé los componentes para estructurar el Sistema de Diseño basado en Atomic Design, tanto con Figma como con React. Además, utilicé diversas bibliotecas para agregar efectos y animaciones, incluyendo keyframes."
+          },
         "linkto": "https://seokyelee23.netlify.app/",
         "linktogit": "https://github.com/seokyelee/Proyect-Alpha_AboutMe.git",
-        "img1": "",
+        "img1": "/foto/gammacapture.png",
         "img2": ""
     },
     {
@@ -19,7 +22,10 @@
         "date": "12 / 2022",
         "extraClass": "hover-effect",
         "description": "[HTML]  [CSS]  [UIUX:'Figma']",
-        "content": "Lorem impsum sueta uf sydte dsare  dufyct jdl si dusans Lorem impsum sueta uf sydte dsare  dufyct jdl si dusans",
+        "content":  {
+            "en": "The Alpha Project was my first experience building a website using HTML and CSS, implementing the layout with the 'display: flex' property. Also, I used media queries to ensure the page was responsive. For this project, I did a UX research creating a Persona and developing UI/UX based wireframes with Figma. I also created my own personal brand using Adobe Photoshop CS6.",
+            "es": "El Proyecto Alpha fue mi primera experiencia en la creación de una web utilizando HTML y CSS, implementando el diseño con la propiedad 'display: flex'. Además, utilicé media queries para garantizar que la página fuera responsive. Para este proyecto, realicé una investigación de experiencia de usuario (UX research) creando una Persona y desarrollando wireframes basados en el diseño de interfaz de usuario (UI/UX) con Figma. También creé mi propia marca personal utilizando Adobe Photoshop CS6."
+          },
         "linkto": "https://aboutmeseokye.netlify.app/",
         "linktogit": "https://github.com/seokyelee/Proyect-Alpha_AboutMe.git",
         "img1": "/foto/aboutweb.png",
@@ -32,7 +38,10 @@
         "extraClass": "featured",
         "date": "4 / 2023",
         "description": "[WordPress]  [PHP]  [SASS]  [UIUX:'Figma']  [woocommerce]  [Digital Marketing]",
-        "content": "Lorem impsum sueta uf sydte dsare  dufyct jdl si dusans Lorem impsum sueta uf sydte dsare  dufyct jdl si dusans",
+        "content":  {
+            "en": "The Beta Project consisted in the creation of a website of ideas using WordPress with PHP and CSS, as well as SASS and WooCommerce. From the beginning, I focused on creating a local brand in Valencia specialized in organic burgers. I carried out a study of the sector, competition and relevant keywords for digital marketing. I also developed the user flow and wireframes using Figma to create components..",
+            "es": "El Proyecto Beta consistió en la creación de un sitio web de ideas utilizando WordPress con PHP y CSS, además de SASS y WooCommerce. Desde el principio, me enfoqué en crear una marca local en Valencia especializada en hamburguesas ecológicas. Realicé un estudio del sector, la competencia y las palabras clave relevantes para el marketing digital. También desarrollé el flujo de usuario y los wireframes utilizando Figma para crear componentes."
+          },
         "linkto": "https://esatdev.com/2022/seokye/lluna/",
         "linktogit": "https://github.com/seokyelee/Project-Beta-Lluna.git",
         "img1": "/foto/Lluna01.png",

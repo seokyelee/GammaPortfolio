@@ -66,12 +66,12 @@ export default function Nav() {
 
 				<div className="toggle_btn_language">
 					<button style={textStyle} className={`toggle_btn ${languageContext.language === "en" ? "active" : ""}`} onClick={handleLanguageToggle}>
-						{languageContext.language === "en" ? <img src="foto/idioma.png" alt="idioma Icon" className="toggle_btn__iconidoma" /> :'Es' }
+						{languageContext.language === "en" ? <img src="/foto/idioma.png" alt="idioma Icon" className="toggle_btn__iconidoma" /> :'Es' }
 					</button>
 				</div>
 				<div className="toggle_btn_theme">
 					<button style={textStyle} className={`toggle_btn ${themeContext.theme === "dark" ? "active" : ""}`} onClick={handleThemeToggle}>
-						{themeContext.theme === "dark" ? <IconMoon /> : <img src="foto/sun.png" alt="Light Icon" className="toggle_btn__iconsun" />}
+						{themeContext.theme === "dark" ? <IconMoon /> : <img src="/foto/sun.png" alt="Light Icon" className="toggle_btn__iconsun" />}
 					</button>
 				</div>
 				<div className="nav__item__mail">

@@ -1,11 +1,13 @@
 import { useParams, Link } from "react-router-dom";
 import { useState, useEffect, useRef } from "react";
 import "./WorkDetail.scss";
+import Nav from "../../componentes/Nav/Nav";
 
 export default function WorkDetail() {
   const [data, setData] = useState([]);
   const params = useParams();
   const scrollingImagesRef = useRef(null);
+  const [languageToggle, setLanguageToggle] = useState("en");
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -27,14 +29,21 @@ export default function WorkDetail() {
     return () => clearTimeout(timeoutId);
   }, []);
 
+
   return (
     <>
+      
       <h1 className="proyect_h1">{data?.title}</h1>
       <section className="proyect_detail_box">
-        <div>
-          <p className="proyect_content">{data?.content}</p>
-        </div>
-        <div className="proyect_links">
+        <div className="proyect_content_box">
+          <p className="proyect_content">
+            {data && data.content
+              ? languageToggle === "en"
+                ? data.content.en
+                : data.content.es
+              : "Loading content..."}
+          </p>
+          <div className="proyect_links">
           <a className="proyect_linkto" href={data?.linkto}>
             Demo
           </a>
@@ -42,6 +51,8 @@ export default function WorkDetail() {
             GitHub
           </a>
         </div>
+        </div>
+        
         <div className="proyect_img_box">
           <div className="image_wrapper">
             <div className="scroll-images">

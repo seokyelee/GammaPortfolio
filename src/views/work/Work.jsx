@@ -26,7 +26,7 @@ export default function Work() {
 
         <div className="card_div">
           {data.map((item) => (
-            <Link key={item.id} to={'/work/' + item.id}>
+            <Link key={item.id} to={`/work/${item.id}`}>
               <Card
                 extraClass={item.extraClass}
                 title={item.title}

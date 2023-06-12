@@ -1,13 +1,13 @@
 import React, { useContext, useState } from "react";
 import "./Card.scss";
-
-import { ThemeContext } from "../../App";
+import { LanguageContext, ThemeContext } from "../../App";
 
 
 function Card(props) {
   const [isHovered, setIsHovered] = useState(false);
   const themeContext = useContext(ThemeContext);
   let [classText, setClassText] = useState("");
+  const languageContext = useContext(LanguageContext);
 
   const textStyle = {
     color: themeContext.theme === "dark" ? "#c8e6e4" : "",
@@ -26,6 +26,16 @@ function Card(props) {
   function handleMouseLeave() {
     setIsHovered(false);
   }
+
+
+  const getContentByLanguage = () => {
+    if (props.content) {
+      return languageContext.language === "en"
+        ? props.content.en
+        : props.content.es;
+    }
+    return "";
+  };
 
   return (
     <section
@@ -50,7 +60,7 @@ function Card(props) {
 
       <div className={`proyect_usestate ${classText}`}>
         <p style={textStyle} className="proyect_content">
-          {props.content}
+          {getContentByLanguage()}
         </p>
 
         <div className="proyect_links">
