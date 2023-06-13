@@ -17,10 +17,10 @@ export default function Footer() {
                 themeContext.theme === "dark" ? "dark" : ""
               }`}
             >
-              Luis bñuel, George Méliès Ingmar Bergman, Roman Polanski, David Lynch, Fritz Lang ,F.W.
-              Murnau,Stanley Kubrick, Hayao Miyazaki, Akira Kurosawa, Andrei Tarkovsky, François Truffaut Ridley Scott, Pedro
+              Luis bñuel, George Méliès, Ingmar Bergman, Roman Polanski, David Lynch, Fritz Lang, F.W.
+              Murnau, Stanley Kubrick, Hayao Miyazaki, Akira Kurosawa, Andrei Tarkovsky, François Truffaut Ridley Scott, Pedro
               Almodóvar D.W. Griffith Paul, Thomas Anderson, Alfonso Cuarón, Wong
-              Kar-Wai,Alejandro Amenábar,Ang Lee, Tim Burton,
+              Kar-Wai,Alejandro Amenábar, Ang Lee, Tim Burton,
               Krzysztof Kieślowski, Jane Campion, Dalí, Picasso,
               Van Gogh, Rembrant, Diego
               Velazquez, Jan van Eyck, Joan Miró, Goya, Klimt, Marc Chagall, Frida Kahalo, Jackson
@@ -31,7 +31,7 @@ export default function Footer() {
               ballena, canción de mar: Cortesía, saludos,
               felicitaciones, comprensión, consideración, gratitud, positivismo,
               empatía, cooperación, responsabilidad, simpatía, generosidad,
-              compartir, respeto, cariño, confianza.
+              compartir, respeto, cariño, confianza...
             </p>
           </Link>
 
