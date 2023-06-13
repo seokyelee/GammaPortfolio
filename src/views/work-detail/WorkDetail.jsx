@@ -43,6 +43,8 @@ export default function WorkDetail() {
                 : data.content.es
               : "Loading content..."}
           </p>
+          <div>{data?.description}</div>
+          </div>
           <div className="proyect_links">
           <a className="proyect_linkto" href={data?.linkto}>
             Demo
@@ -51,7 +53,7 @@ export default function WorkDetail() {
             GitHub
           </a>
         </div>
-        </div>
+        
         
         <div className="proyect_img_box">
           <div className="image_wrapper">

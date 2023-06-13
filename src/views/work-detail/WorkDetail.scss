@@ -4,7 +4,7 @@
 @import '../../scss/variable.scss';
 
 .proyect_h1 {
-  padding: 30px;
+  padding: 20px;
   margin-top: 80px;
   font-size: fs(regular);
 }
@@ -33,13 +33,17 @@
   text-align: left;
   align-items: center;
 }
-
+.proyect_description{
+     font-size: 14px;
+     padding-right: 20px;
+}
 
 .proyect_links {
   display: flex;
   justify-content: center;
   text-align: right;
   padding-bottom: 12px;
+  padding-top: 20px;
 }
 
 .proyect_linkto {

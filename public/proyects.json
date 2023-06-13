@@ -18,7 +18,7 @@
     {
         "id": "1",
         "title": "Alpha",
-        "tooltip": "First my webpage ",
+        "tooltip": "My first web",
         "date": "12 / 2022",
         "extraClass": "hover-effect",
         "description": "[HTML]  [CSS]  [UIUX:'Figma']",
@@ -34,7 +34,7 @@
     {
         "id": "2",
         "title": "Beta",
-        "tooltip": "Hamburguesa saludable Lluna",
+        "tooltip": "Lluna Burger",
         "extraClass": "featured",
         "date": "4 / 2023",
         "description": "[WordPress]  [PHP]  [SASS]  [UIUX:'Figma']  [woocommerce]  [Digital Marketing]",

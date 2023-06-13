@@ -22,3 +22,19 @@ a {
      margin-top: 40px;
      margin-bottom: 30px;
 }
+
+section.proyect_box.featured,.hover-effect {
+     height: auto;
+     display: flex;
+     justify-content: space-between;
+     padding-right: 18px;
+}
+
+.proyect_description_box{
+     height: auto;
+
+}
+div .proyect_description{
+     font-size: 14px;
+     padding-right: 20px;
+}
