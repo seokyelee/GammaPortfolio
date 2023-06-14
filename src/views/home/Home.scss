@@ -43,12 +43,13 @@
 
 @media all and (max-width: 780px) {
     .typeit {
+        margin-bottom: -20px;
         font-size: 80px;
     }
 
     .footer__box {
         flex-direction: column;
-        gap: 8px;
+        gap: 6px;
     }
 
     .footer__box_description {
@@ -58,11 +59,17 @@
 
 @media all and (max-width: 420px) {
     .typeit {
+        margin-bottom: -30px;
         font-size: 52px;
     }
 
+    .footer__box {
+        gap: 0px;
+        padding: 4px;
+    }
+
     .footer__box_description {
-        font-size: 8px;
-        padding: 6px;
+        font-size: 6px;
+        padding: 4px;
     }
 }
