@@ -2,11 +2,12 @@ import React, { useContext } from "react";
 import "./Thanks.scss";
 import Btn from "../../componentes/Btn/Btn";
 import { LanguageContext, ThemeContext } from "../../App";
+import { Link } from "react-router-dom";
 
 export default function Thanks() {
   const userData = useContext(LanguageContext);
   const themeContext = useContext(ThemeContext);
-
+ 
   const textStyle = {
     color: themeContext.theme === "dark" ? "#ededdf" : "",
   };
@@ -32,10 +33,12 @@ export default function Thanks() {
             className="be__root"
             dangerouslySetInnerHTML={{ __html: rootsText }}
           ></h3>
-
-          <Btn />
-        </section>
-      </main>
-    </>
-  );
+        <Link to="https://mail.google.com/" target="_blank">
+          <Btn className="submit_mail" />
+					</Link>
+          
+            </section>
+          </main>
+        </>
+        );
 }

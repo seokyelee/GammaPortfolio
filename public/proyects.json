@@ -11,7 +11,7 @@
             "es": "El Proyecto Gamma fue mi proyecto más reciente, un portfolio que desarrollé como parte de mi postgrado en la ESAT. Utilicé React y SASS con Vite como herramientas principales, mientras profundizaba mis conocimientos en JavaScript, React y SASS. S Creé los componentes para estructurar el Sistema de Diseño basado en Atomic Design, tanto con Figma como con React. Además, utilicé diversas bibliotecas para agregar efectos y animaciones, incluyendo keyframes."
           },
         "linkto": "https://seokyelee23.netlify.app/",
-        "linktogit": "https://github.com/seokyelee/Proyect-Alpha_AboutMe.git",
+        "linktogit": "https://github.com/seokyelee/GammaPortfolio.git",
         "img1": "/foto/gammacapture.png",
         "img2": ""
     },

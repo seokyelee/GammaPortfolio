@@ -20,6 +20,9 @@
     box-shadow: 10px 5px 5px #B4B4B4;
 }
 
-.btn__pri :hover {
-    background-color: color(color-btn);
+.btn__pri:hover{
+    background-color: #cf89fd;
+    transform: translateY(-2px);
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
 }

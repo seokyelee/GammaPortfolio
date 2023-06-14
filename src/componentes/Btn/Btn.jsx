@@ -19,7 +19,7 @@ export default function Btn() {
 	return (
 		<>
 
-			<div className="btn">
+			<div >
 				<button style={{ ...shadowStyle, ...textStyle }} className="btn__pri" type="sbmit">
 					Let's talk
 				</button>

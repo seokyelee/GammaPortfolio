@@ -24,3 +24,14 @@
 .be__root span {
     color: aqua;
 }
+
+//.submit_mail {
+//    transition: background-color 0.3s, transform 0.3s;
+//}
+
+.submit_mail:hover {
+    background-color: #31cfc2;
+    transform: translateY(-2px);
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+}

@@ -12,38 +12,56 @@
 }
 
 .icon__codepen:hover {
-    fill: red;
     transform: scale(1.2);
 }
+
+.icon__git:hover {
+    transform: scale(1.2);
+}
+
+.icon__likedin:hover {
+    transform: scale(1.2);
+}
+
+.icon__mail:hover {
+    transform: scale(1.2);
+}
+
 
 .icon__git {
     width: 32px;
     height: 32px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .toggle_btn__iconsun{
     width: 25px;
     height: 25px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .toggle_btn__iconidoma{
     width: 19px;
     height: 19px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .icon__likedin {
     width: 32px;
     height: 32px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .icon__moon {
     width: 32px;
     height: 32px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .icon__mail {
     width: 32px;
     height: 32px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .Icons__box {
