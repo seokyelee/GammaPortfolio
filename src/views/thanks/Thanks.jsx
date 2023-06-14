@@ -33,7 +33,7 @@ export default function Thanks() {
             className="be__root"
             dangerouslySetInnerHTML={{ __html: rootsText }}
           ></h3>
-        <Link to="https://mail.google.com/" target="_blank">
+        <Link to="https://mail.google.com/" art="enviar mail" target="_blank">
           <Btn className="submit_mail" />
 					</Link>
           

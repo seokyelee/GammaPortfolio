@@ -33,23 +33,23 @@ export default function Nav() {
 				
 
 				<div className="nav__item__codepen">
-					<Link className="icono_codepen" to="https://codepen.io/seokyelee">
+					<Link className="icono_codepen" to="https://codepen.io/seokyelee" target="_blank">
 						<IconCodepen />
 					</Link>
 				</div>
 				<div className="nav__item__git">
-					<Link className="icono_git" to="https://github.com/seokyelee">
+					<Link className="icono_git" to="https://github.com/seokyelee" target="_blank">
 						<IconGit className="zoom" />
 					</Link>
 				</div>
 				<div className="nav__item__linkedin">
-					<Link className="icono_linkedin" to="https://www.linkedin.com/in/seok-ye-lee-a8196941/">
+					<Link className="icono_linkedin" to="https://www.linkedin.com/in/seok-ye-lee-a8196941/" target="_blank">
 						<IconLinkedin />
 					</Link>
 				</div>
 
 				<div className="nav__item__home">
-					<Link className="page_home" style={textStyle} to="/">
+					<Link className="page_home" style={textStyle} to="/" >
 						Home
 					</Link>
 				</div>
