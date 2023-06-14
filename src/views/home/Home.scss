@@ -27,7 +27,7 @@
 }
 
 .footer__box_description {
-    font-size: 11px;
+    font-size: 10px;
 }
 
 .freeze_text {
@@ -43,33 +43,42 @@
 
 @media all and (max-width: 780px) {
     .typeit {
-        margin-bottom: -20px;
+        margin-bottom: -40px;
         font-size: 80px;
     }
-
+   
+   .bacoder__small{
+        width:290px;
+    }
+   
     .footer__box {
         flex-direction: column;
+        padding: 6px;
         gap: 6px;
     }
 
-    .footer__box_description {
-        font-size: 10px;
+    .footer__box_description{
+        font-size: 8px;
+        margin:0;
     }
 }
 
 @media all and (max-width: 420px) {
     .typeit {
-        margin-bottom: -30px;
+        margin-bottom: -60px;
         font-size: 52px;
     }
 
     .footer__box {
-        gap: 0px;
         padding: 4px;
     }
 
-    .footer__box_description {
+    .footer__box_description{
         font-size: 6px;
-        padding: 4px;
+        margin:0;
+    }
+
+    .page_about {
+        padding: 0px;
     }
 }
