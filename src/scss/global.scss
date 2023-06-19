@@ -126,3 +126,15 @@ a:active {
     border: 1px solid color(color-border);
     border-radius: 4px;
 }
+
+@media all and (max-width: 780px){
+    .proyect_content {
+        font-size: fs(x-small);
+    }
+    .proyect_content_box {
+        width: 80%;
+    }
+    .proyject_page_title{
+        margin-top: 50px;
+    }
+}
