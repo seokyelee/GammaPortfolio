@@ -46,10 +46,10 @@ export default function WorkDetail() {
           <div>{data?.description}</div>
           </div>
           <div className="proyect_links">
-          <a className="proyect_linkto" href={data?.linkto}>
+          <a className="proyect_linkto" href={data?.linkto} target="_blank" rel="noopener noreferrer">
             Demo
           </a>
-          <a className="proyect_linkto_git" href={data?.linktogit}>
+          <a className="proyect_linkto_git" href={data?.linktogit}  target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
         </div>
