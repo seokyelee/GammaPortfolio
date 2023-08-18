@@ -14,7 +14,7 @@ export default function WorkDetail() {
   };
 
   useEffect(() => {
-    fetch("/proyects.json")
+    fetch("/projects.json")
       .then((res) => res.json())
       .then((info) => {
         setData(info.find((item) => item.id == params.id));

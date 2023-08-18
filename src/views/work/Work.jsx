@@ -11,7 +11,7 @@ export default function Work() {
   };
 
   useEffect(() => {
-    fetch("/proyects.json")
+    fetch("/projects.json")
       .then((res) => res.json())
       .then((info) => {
         setData(info);
