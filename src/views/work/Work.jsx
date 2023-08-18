@@ -22,7 +22,7 @@ export default function Work() {
     <>
 
       <main className="work_page">
-        <h1 className="proyject_page_title">Proyects</h1>
+        <h1 className="proyject_page_title">Projects</h1>
 
         <div className="card_div">
           {data.map((item) => (
